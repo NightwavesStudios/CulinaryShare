@@ -1,7 +1,7 @@
 var recipes = [
   {//javascript:(openRecipe('salchipapas'));
                 name: "Salchi Papas",
-                link: "/recipe/salchipapas",
+                link: "/recipe/salchipapas.html",
                 thumb: "salchipapas.jpg",
                 votes: "9/10",
             },
