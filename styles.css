@@ -163,8 +163,7 @@
             margin-top: 0px;
         }
 .carousel img {
-background-attachment:fixed;
-  height:80vh;
+  
 }
         #menu a:hover i.material-symbols-outlined {
             vertical-align: middle;
