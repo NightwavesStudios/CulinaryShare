@@ -1,7 +1,7 @@
 var recipes = [
-  {//javascript:(openRecipe('salchipapas'));
+  {
                 name: "Salchi Papas",
-                link: "/recipe/salchipapas.html",
+                link: "avascript:(openRecipe('salchipapas'));",
                 thumb: "salchipapas.jpg",
                 votes: "9/10",
             },
@@ -113,6 +113,7 @@ var recipes = [
 
 
         function runP() {
+            document.getElementById('recipes').innerHTML = "";
             for (var i = 0; i < recipes.length; i++) {
                 document.getElementById("recipes").innerHTML += `
                 <a href="${recipes[i].link}"   style='margin:0;padding:0px !important;'>
