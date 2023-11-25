@@ -1,7 +1,7 @@
 var recipes = [
   {
                 name: "Salchi Papas",
-                link: "avascript:(openRecipe('salchipapas'));",
+                link: "/recipes/salchipapas.html",
                 thumb: "salchipapas.jpg",
                 votes: "9/10",
             },
