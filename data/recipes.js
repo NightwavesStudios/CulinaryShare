@@ -3,13 +3,13 @@ var recipes = [
                 name: "Salchi Papas",
                 link: "/recipe/salchipapas.html",
                 thumb: "salchipapas.jpg",
-                votes: "9/10",
+                votes: "Colombian Fast Food",
             },
             {
                 name: "Grilled Cheese",
                 link: "javascript:(openRecipe('grilledcheese'));",
                 thumb: "grilledcheese.jpg",
-                votes: "5/10",
+                votes: "Zaxbys",
             },
             {
                 name: "Popsicles",
@@ -39,13 +39,13 @@ var recipes = [
                 name: "Chicken Nuggets",
                 link: "javascript:(openRecipe('chickennuggets'));",
                 thumb: "chickennuggets.jpg",
-                votes: "7/10",
+                votes: "Chick-Fil-A",
             },
             {
                 name: "Bean and Cheese Quesadilla",
                 link: "javascript:(openRecipe('beanandcheesequesadilla'));",
                 thumb: "beanandcheesequesadilla.jpg",
-                votes: "8/10",
+                votes: "Moes Mexican Grill",
             },
             {
                 name: "Tomato Sandwich",
@@ -63,7 +63,7 @@ var recipes = [
                 name: "Dirt & Worms",
                 link: "javascript:(openRecipe('dirtandworms'));",
                 thumb: "dirtandworm.jpg",
-                votes: "5/10",
+                votes: "GrubHub",
             },
             {
                 name: "Pimento Cheese Sandwich",
@@ -75,7 +75,7 @@ var recipes = [
                 name: "BLT",
                 link: "javascript:(openRecipe('blt'));",
                 thumb: "blt.jpg",
-                votes: "8/10",
+                votes: "Oak Grove Market",
             },
             {
                 name: "Hot Dog",
