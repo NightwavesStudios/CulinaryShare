@@ -1,7 +1,7 @@
 var recipes = [
   {
                 name: "Salchi Papas",
-                link: "/recipes/salchipapas.html",
+                link: "/recipe/salchipapas.html",
                 thumb: "salchipapas.jpg",
                 votes: "9/10",
             },
