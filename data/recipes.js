@@ -1,13 +1,13 @@
 var recipes = [
   {
                 name: "Salchi Papas",
-                link: "/recipe/salchipapas.html",
+                link: "/recipes/salchipapas.html",
                 thumb: "salchipapas.jpg",
                 votes: "Colombian Fast Food",
             },
             {
                 name: "Grilled Cheese",
-                link: "javascript:(openRecipe('grilledcheese'));",
+                link: "/recipes/grilledcheese.html",
                 thumb: "grilledcheese.jpg",
                 votes: "Zaxbys",
             },
