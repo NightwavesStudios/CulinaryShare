@@ -122,7 +122,7 @@ var recipes = [
                 <a class="title ft-link" href="${recipes[i].link}" >${recipes[i].name}</a>
                 <br>
                 <span>
-                <i class="material-symbols-outlined">thumb_up</i> ${recipes[i].votes}
+                <i class="material-symbols-outlined">bookmark</i> ${recipes[i].votes}
                 </span>
                 </div>
                 </a>
