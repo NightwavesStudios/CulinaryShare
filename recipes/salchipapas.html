@@ -96,12 +96,9 @@
         </div>
     </div>
     
-    <!-- Create Page -->
-    <div class="scene">
-        <div class="nav-block"></div>
-<div class="container pt-4 pb-4 para" style="overflow:hidden;">
-            <div class="bg-image" style="background-image:url('create.jpeg');background-position:left;background-attachment:fixed;height:150px;border-radius:10px;margin-bottom:50px;">
-                <img src="../create.jpeg" class="w-100" style="opacity:0;" />
+    <div class="container pt-4 pb-4 para" style="overflow:hidden;">
+            <div class="bg-image" id="image" style="background-position:left;background-attachment:fixed;height:150px;border-radius:10px;margin-bottom:50px;">
+                <img src="create.jpeg" class="w-100" style="opacity:0;" />
                 <div class="mask" style="
       background: linear-gradient(
         43deg,
@@ -109,36 +106,23 @@
         var(--gradient-image-bg-two)
       );
     ">
-                    <h1 style="text-align:center;margin-top:35px;">Create </h1>
+                    <h1 style="text-align:center;margin-top:35px;" id="recipetitle"> Recipe Title</h1>
 
                 </div>
             </div>
-
-           <h1 style="text-align:center;">Create Recipe</h1>
-           <hr>
-              <form 
-            action="https://script.google.com/macros/s/AKfycbyIq_BoirGUjut4glU0DMYNkMDlZJIe4u_09H8No8QBsjTIV8ZDv-gxbb5Qc4M6tI3h/exec"
-            method="POST" 
-            id="submitArticle"
-            style="text-align:center;"
-            >
-         
-         <input name="Type" value="Recipe Submission" style="visibility:hidden;"><br>
-         Recipe: <input minlength="3" maxlength="30" name="Recipe Name" placeholder="Recipe Name" required><br><br>
-         Author: <input minlength="3" name="Author" placeholder="Author Name" required><br><br>
-         Email (Not Shown On Article): <input name="Email" type="email" placeholder="Email" required><br><br>
-         Prep Time: <input maxlength="4" name="PrepTime" min="0" type="number" placeholder="Amount of Time Needed to Prepare Recipe" style="width:90%;" required><br><br>
-         Cook Time: <input maxlength="4" name="CookTime" min="0" type="number" placeholder="Amount of Time Needed to Cook Recipe" style="width:90%;" required><br><br>
-         Serving Size: <input maxlength="4" name="Servings" min="1" type="number" placeholder="How many Portions for One Average Person..." style="width:90%;" required><br><br>
-         Ingredients (With Measurements): <input minlength="3" name="Ingredients" placeholder="List of Ingredients and Amount Needed" style="width:90%;" required><br><br>
-         Appliances Needed: <input minlength="3" name="Appliances" placeholder="List of Needed Appliances to Make The Dish" style="width:90%;" required><br><br>
-         Prep Instructions: <input minlength="3" name="PrepInstructions" placeholder="Preperation Instructions" style="width:90%;" required><br><br>
-         Cook Instructions: <input minlength="3" name="CookInstructions" placeholder="Cooking Instructions" style="width:90%;" required><br><br>
-         <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" id="verifyFormSubmit" type="submit">Submit Article</button>
-         </form>
+          <hr>
+          <br />
+           <p style="text-align:center;" id="servings">Servings:</p>
+           <p style="text-align:center;" id="cooktime">Cook Time:</p>
+           <p style="text-align:center;" id="preptime">Prep Time:</p>
+           <p style="text-align:center;" id="ingredients">Ingredients:</p>
+           <p style="text-align:center;" id="appliances">Appliances:</p>
+           <p style="text-align:center;" id="prepinstructions">Prep Instructions:</p>
+           <p style="text-align:center;" id="cookinstructions">Cook Instructions:</p>
+           <hr><br>
+           <h3 style="text-align:center;">Video</h3>
+           <div id="videotutorial"></div>
         </div>
-        <br><br>
-    </div>
 
     <!-- Footer -->
     <!-- Footer has additional Feedback element, activated by <a> -->
