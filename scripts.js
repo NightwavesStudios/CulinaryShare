@@ -19,7 +19,7 @@
         };
         //toggle_el('menu', 'on');
 
-        // Clock Interval
+       /** // Clock Interval
         setInterval(function() {
             var sd = new Date();
             var hrs = sd.getHours();
@@ -28,7 +28,7 @@
             }
             document.getElementById("time").innerHTML = " "+hrs + ":" + sd.getMinutes() + " " + ((hrs >= 12) ? "PM" : "AM");
             //}, 60000);
-        }, 1000);
+        }, 1000);**/
 
         // All nvlinks in page
         var links = document.getElementsByClassName('nvlink');
