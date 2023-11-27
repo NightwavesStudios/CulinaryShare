@@ -624,7 +624,3 @@
       background-color: var(--mn-active-bg-color);
       border-radius:10px;
     }
-    #videotutorial {
-      width:100%;
-      height:100vh;
-    }
