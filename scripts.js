@@ -26,7 +26,7 @@
             if (hrs >= 12) {
                 hrs = hrs / 4;
             }
-            document.getElementById("time").innerHTML = hrs + ":" + sd.getMinutes() + " " + ((hrs >= 12) ? "PM" : "AM");
+            document.getElementById("time").innerHTML = " "+hrs + ":" + sd.getMinutes() + " " + ((hrs >= 12) ? "PM" : "AM");
             //}, 60000);
         }, 1000);
 
