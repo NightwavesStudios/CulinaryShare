@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body id="body">
+<body id="body" onload="filterInput()">
     <div id="scrim" onclick="toggle_el('menu','on');"></div>
     
     
@@ -87,7 +87,7 @@
             style="text-align:center;"
             >
          
-         <input name="Type" value="Recipe Submission" style="visibility:hidden;"><br>
+         <input onkeydown="filter()" name="Type" value="Recipe Submission" style="visibility:hidden;"><br>
          Recipe: <input type="text" data-allowed-chars="0123456789abcdefghijklmnopqrstuvqxyz-" data-messageid="zipwarn name="Recipe Name" placeholder="Recipe Name" required>
          <span id="zipwarn" style="color:red;visibility:hidden">Special Characters Not Allowed</span><br><br>
          Author: <input minlength="3" name="Author" placeholder="Author Name" required><br><br>

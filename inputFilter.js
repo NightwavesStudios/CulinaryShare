@@ -23,7 +23,7 @@
  * This module is purely unobtrusive: it does not define any symbols in
  * the global namespace.
  */
-whenReady(function () {  // Run this function when the document is loaded
+filterInput(function () {  // Run this function when the document is loaded
     // Find all <input> elements
     var inputelts = document.getElementsByTagName("input");
     // Loop through them all
