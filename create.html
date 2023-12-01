@@ -88,7 +88,8 @@
             >
          
          <input name="Type" value="Recipe Submission" style="visibility:hidden;"><br>
-         Recipe: <input type="text" data-allowed-chars="0123456789abcdefghijklmnopqrstuvqxyz-" data-messageid="Special Characters Not Allowed" name="Recipe Name" placeholder="Recipe Name" required><br><br>
+         Recipe: <input type="text" data-allowed-chars="0123456789abcdefghijklmnopqrstuvqxyz-" data-messageid="zipwarn name="Recipe Name" placeholder="Recipe Name" required>
+         <span id="zipwarn" style="color:red;visibility:hidden">Special Characters Not Allowed</span><br><br>
          Author: <input minlength="3" name="Author" placeholder="Author Name" required><br><br>
          Email (Not Shown On Article): <input name="Email" type="email" placeholder="Email" required><br><br>
          Prep Time: <input maxlength="4" name="PrepTime" min="0" type="number" placeholder="Amount of Time Needed to Prepare Recipe" style="width:90%;" required><br><br>
