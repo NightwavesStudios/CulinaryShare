@@ -371,68 +371,7 @@
         .jumbo-btn:active {
             background-color: rgb(76, 138, 44) !important;
         }
-
-      /*  @keyframes sceneAnimation {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        #logo {
-            background-color: rgb(255, 255, 255);
-            width: 100%;
-            height: 100%;
-            z-index: 1000;
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-
-        #logo h1 {
-            font-family: "Roboto", arial;
-            text-shadow: 2px 3px 2px rgba(0, 32, 97, 0.3);
-            font-size: 120px;
-            letter-spacing: 3px;
-            position: relative;
-            top: 25vw;
-            animation: logoAnim 4s forwards;
-            text-align: center;
-            font-weight: 500;
-        }
-
-        @keyframes logoAnim {
-            0% {
-                opacity: 0;
-                transform: scale(0, 0)skew(90deg, -20deg);
-            }
-
-            40% {
-                opacity: 1;
-                transform: scale(1, 1)skew(0deg, 0deg);
-            }
-
-            50% {
-                opacity: 1;
-                transform: scale(1, 1)skew(0deg, 0deg);
-            }
-
-            60% {
-                opacity: 1;
-                transform: scale(1, 1)skew(0deg, 0deg);
-            }
-
-            100% {
-                opacity: 0;
-                transform: scale(0, 0)skew(90deg, 20deg);
-            }
-        } */
-
+        
         .article-at {
             padding: 15px 40px;
         }
