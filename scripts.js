@@ -33,23 +33,7 @@
         // All nvlinks in page
         var links = document.getElementsByClassName('nvlink');
 
-        // Page toggle function
-        var changePage = function(index) {
-            for (var i = 0; i < document.getElementsByClassName("scene").length; i++) {
-                document.getElementsByClassName("scene")[i].style.display = "none";
-                if (!dm) {
-                    window.scroll(0, 0);
-                    document.getElementsByClassName("scene")[i].style.animation = "1s sceneAnimation forwards";
-                }
-                links[i].classList.remove('active');
-            }
-            links[index].classList.add('active');
-
-            document.getElementsByClassName("scene")[index].style.display = "block";
-        };
-
-        // Change Page to Home
-        changePage(currScene);
+        
 
         if (dm === false) {
                 changePage(1);
