@@ -1,15 +1,4 @@
-        var currScene = 0;
-        var dm = false;
-
-        // Transition Theme
-        function lightMode() {
-            document.body.classList.toggle("lightmode");
-            if (document.getElementById("theme-icon").innerHTML === "light_mode") {
-                document.getElementById("theme-icon").innerHTML = "clear_night";
-            } else {
-                document.getElementById("theme-icon").innerHTML = "light_mode";
-            }
-        }
+        
         
 
         // Toggle Element Helper Function
