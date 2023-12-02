@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CulinaryShare</title>
@@ -12,334 +11,277 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
     <link rel="icon" type="image/x-icon" href="CulinaryShareLogo.png">
-
     <link rel="stylesheet" href="styles.css">
-</head>
-
-<body id="body">
+  </head>
+  <body id="body">
     <div id="scrim" onclick="toggle_el('menu','on');"></div>
-    
-    
-
-    
-
     <nav class="navbar navbar-dark fixed-top" id="main-navbar">
-        <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="toggle_el('menu','on');" class="ripple navbar-toggler" type="button">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
-
-        <a class="navbar-brand me-2" href="#">
-            <img src="CulinaryShareLogo.png" height="40" alt="CulinaryShare Logo" style="margin-right:5px;" />
-            CulinaryShare
-        </a>
-
-        <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="lightMode();" class="ripple navbar-toggler" type="button">
-            <span class="material-symbols-outlined" id="theme-icon">light_mode</span>
-        </button>
+      <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="toggle_el('menu','on');" class="ripple navbar-toggler" type="button">
+      <span class="material-symbols-outlined">menu</span>
+      </button>
+      <a class="navbar-brand me-2" href="#">
+      <img src="CulinaryShareLogo.png" height="40" alt="CulinaryShare Logo" style="margin-right:5px;" />
+      CulinaryShare
+      </a>
+      <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="lightMode();" class="ripple navbar-toggler" type="button">
+      <span class="material-symbols-outlined" id="theme-icon">light_mode</span>
+      </button>
     </nav>
-
     <div id="menu">
-        <div id="mtp">
-            <img src="CulinaryShareLogo.png">
-            <h2>CulinaryShare</h2>
-        </div>
-        <hr />
-        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink active ripple" href="javascript:toggle_el('menu','on');"><i class="material-symbols-outlined">close</i><span>Close</span></a>
-        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="index.html"><i class="material-symbols-outlined">house</i><span>Home</span></a>
-        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="about.html"><i class="material-symbols-outlined">account_circle</i><span>About</span></a>
-        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="recipes.html"><i class="material-symbols-outlined">skillet</i><span>Recipes</span></a>
-        
-        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="lessons.html"><i class="material-symbols-outlined">school</i><span>Lessons</span></a>
-
-         <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="create.html"><i class="material-symbols-outlined">edit</i><span>Create</span></a>
-
-          <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="games.html"><i class="material-symbols-outlined">stadia_controller</i><span>Games</span></a>
-
-        <div id="pts">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of service</a>
-        </div>
+      <div id="mtp">
+        <img src="CulinaryShareLogo.png">
+        <h2>CulinaryShare</h2>
+      </div>
+      <hr />
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink active ripple" href="javascript:toggle_el('menu','on');"><i class="material-symbols-outlined">close</i><span>Close</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="index.html"><i class="material-symbols-outlined">house</i><span>Home</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="about.html"><i class="material-symbols-outlined">account_circle</i><span>About</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="recipes.html"><i class="material-symbols-outlined">skillet</i><span>Recipes</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="lessons.html"><i class="material-symbols-outlined">school</i><span>Lessons</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="create.html"><i class="material-symbols-outlined">edit</i><span>Create</span></a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="games.html"><i class="material-symbols-outlined">stadia_controller</i><span>Games</span></a>
+      <div id="pts">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of service</a>
+      </div>
     </div>
-    
-    
-
     <div class="scene">
-
-
-        <div class="nav-block"></div>
-
-        
-        <div class="bg-image" style="background-image:url('header.jpg');background-position:left;background-attachment:fixed;height:75vh;">
-            <img src="header.jpg" class="w-100" style="opacity:0;" />
-            <div class="mask" style="
-      background: linear-gradient(
-        36deg,
-        rgba(255, 136, 0, 0.5),
-        rgba(255, 255, 255, 0.5)
-      );
-    ">
-                <div class="d-flex align-items-center h-100">
-                    <div class="text-black" style='padding-left:90px;'>
-                        <h1 class="mb-3" style="font-family:'Roboto';">Welcome to CulinaryShare!</h1>
-                        <h5 style="font-family:'Roboto';font-size: 1.75vw;font-weight:300;margin-bottom:35px;">A Place To Explore the Art Of Cooking...</h5>
-
-                        <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="450ms" data-mdb-ripple-centered="false" class="btn jumbo-btn btn-rounded text-white" style="margin-right:10px;" onclick="window.location.href='recipes'; ">
-
-                            Explore Recipes <i class="material-symbols-outlined">arrow_forward</i>
-                        </button>
-
-                        <button data-mdb-ripple-color="rgb(222, 222, 222)" '/ data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='about'">
-
-                            About <i class="material-symbols-outlined">person</i>
-                        </button>
-                    </div>
-                </div>
+      <div class="nav-block"></div>
+      <div class="bg-image" style="background-image:url('header.jpg');background-position:left;background-attachment:fixed;height:75vh;">
+        <img src="header.jpg" class="w-100" style="opacity:0;" />
+        <div class="mask" style="
+          background: linear-gradient(
+          36deg,
+          rgba(255, 136, 0, 0.5),
+          rgba(255, 255, 255, 0.5)
+          );
+          ">
+          <div class="d-flex align-items-center h-100">
+            <div class="text-black" style='padding-left:90px;'>
+              <h1 class="mb-3" style="font-family:'Roboto';">Welcome to CulinaryShare!</h1>
+              <h5 style="font-family:'Roboto';font-size: 1.75vw;font-weight:300;margin-bottom:35px;">A Place To Explore the Art Of Cooking...</h5>
+              <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="450ms" data-mdb-ripple-centered="false" class="btn jumbo-btn btn-rounded text-white" style="margin-right:10px;" onclick="window.location.href='recipes'; ">
+              Explore Recipes <i class="material-symbols-outlined">arrow_forward</i>
+              </button>
+              <button data-mdb-ripple-color="rgb(222, 222, 222)" '/ data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='about'">
+              About <i class="material-symbols-outlined">person</i>
+              </button>
             </div>
+          </div>
         </div>
-
-        <div class="container pt-4 pb-4">
-            <br />
-            <h1>What is Culinary Share?</h1>
-            <br>
-            <p>Culinary Share is a website made to share lessons on how to cook, as well as a platform offering people with easy, diverse dishes that they can learn to cook right in their home! CulinaryShare was developed by the CulinaryShare Team, founded by Nightwaves Studios and the Atlanta Droids (57000).</p>
-
-            <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='about';">
-
-                About <i class="material-symbols-outlined">person</i>
-            </button>
-            <br><br>
+      </div>
+      <div class="container pt-4 pb-4">
+        <br />
+        <h1>What is Culinary Share?</h1>
+        <br>
+        <p>Culinary Share is a website made to share lessons on how to cook, as well as a platform offering people with easy, diverse dishes that they can learn to cook right in their home! CulinaryShare was developed by the CulinaryShare Team, founded by Nightwaves Studios and the Atlanta Droids (57000).</p>
+        <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='about';">
+        About <i class="material-symbols-outlined">person</i>
+        </button>
+        <br><br>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="christmas.jpg" class="d-block w-100" alt="Christmas Food Picture" height="50vh" />
+            <div class="carousel-caption d-md-block">
+              <h5>New Recipes Celibrating The Holidays!</h5>
+              <p>Explore our brand new Christmas recipes for you to make and enjoy over the holidays!</p>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="christmas.jpg" class="d-block w-100" alt="Christmas Food Picture" height="50vh" />
-                    <div class="carousel-caption d-md-block">
-                        <h5>New Recipes Celibrating The Holidays!</h5>
-                        <p>Explore our brand new Christmas recipes for you to make and enjoy over the holidays!</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="salchipapas.jpg" class="d-block w-100" alt="Salchi Papas" height="50vh" />
-                    <div class="carousel-caption  d-md-block">
-                        <h5>Explore Countless Hispanic Heritage Dishes!</h5>
-                        <p>Want to try something different? Explore dishes celebrating Hispanic Heritage, including Salchi Papas, a Colombian dish!</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="grilledcheese.jpg" class="d-block w-100" alt="Grilled Cheese" height="50vh" />
-                    <div class="carousel-caption  d-md-block">
-                        <h5>Curate Your Own Recipes</h5>
-                        <p>Want to put your recipe making skills to the test? Submit your own recipes to be added to our site via our recipe submission page!</p>
-                    </div>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="salchipapas.jpg" class="d-block w-100" alt="Salchi Papas" height="50vh" />
+            <div class="carousel-caption  d-md-block">
+              <h5>Explore Countless Hispanic Heritage Dishes!</h5>
+              <p>Want to try something different? Explore dishes celebrating Hispanic Heritage, including Salchi Papas, a Colombian dish!</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
-                <i class="material-symbols-outlined">arrow_back</i>
-            </button>
-            <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
-                <i class="material-symbols-outlined">arrow_forward</i>
-            </button>
+          </div>
+          <div class="carousel-item">
+            <img src="grilledcheese.jpg" class="d-block w-100" alt="Grilled Cheese" height="50vh" />
+            <div class="carousel-caption  d-md-block">
+              <h5>Curate Your Own Recipes</h5>
+              <p>Want to put your recipe making skills to the test? Submit your own recipes to be added to our site via our recipe submission page!</p>
+            </div>
+          </div>
         </div>
-
-        <!-- Tabs navs -->
-        <ul class="nav nav-tabs mb-3 nav-justified" id="ex-with-icons" role="tablist" style="width:100% !important;">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="ex-with-icons-tab-1" data-mdb-toggle="tab" href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1" aria-selected="true" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
-  "><i class="material-symbols-outlined" style="margin-right:5px;">school</i>Learn</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="ex-with-icons-tab-2" data-mdb-toggle="tab" href="#ex-with-icons-tabs-2" role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
-  "><i class="material-symbols-outlined" style="margin-right:5px;">skillet</i> Cook</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="ex-with-icons-tab-3" data-mdb-toggle="tab" href="#ex-with-icons-tabs-3" role="tab" aria-controls="ex-with-icons-tabs-3" aria-selected="false" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
-  "><i class="material-symbols-outlined" style="margin-right:5px;">globe</i> Share</a>
-            </li>
-        </ul>
-        <!-- Tabs navs -->
-
-        <!-- Tabs content -->
-        <div class="tab-content" id="ex-with-icons-content">
-            <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
-                <div class="container pt-3 pb-3">
-                    <P>Here on CulinaryShare, we have curated a wide range of lessons avaliable on our lessons page. These lessons cover a wide variety of topics, and are made to with pictures, examples, and even videos to make the lessons easy to understand, and learn from. We also have custom made quizzes to test you on what you learned! The lessons page is a perfect way to build up your culinary knowledge. It is also the perfect place to discover new, and possible better ways to cook in the kitchen!</p>
-                     <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='learn';">
-
-                Start Learning <i class="material-symbols-outlined">school</i>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+        <i class="material-symbols-outlined">arrow_back</i>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+        <i class="material-symbols-outlined">arrow_forward</i>
+        </button>
+      </div>
+      <!-- Tabs navs -->
+      <ul class="nav nav-tabs mb-3 nav-justified" id="ex-with-icons" role="tablist" style="width:100% !important;">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="ex-with-icons-tab-1" data-mdb-toggle="tab" href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1" aria-selected="true" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
+            "><i class="material-symbols-outlined" style="margin-right:5px;">school</i>Learn</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="ex-with-icons-tab-2" data-mdb-toggle="tab" href="#ex-with-icons-tabs-2" role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
+            "><i class="material-symbols-outlined" style="margin-right:5px;">skillet</i> Cook</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="ex-with-icons-tab-3" data-mdb-toggle="tab" href="#ex-with-icons-tabs-3" role="tab" aria-controls="ex-with-icons-tabs-3" aria-selected="false" style="font-family:'Google Sans',serif !important;font-weight: 600 !important;
+            "><i class="material-symbols-outlined" style="margin-right:5px;">globe</i> Share</a>
+        </li>
+      </ul>
+      <!-- Tabs navs -->
+      <!-- Tabs content -->
+      <div class="tab-content" id="ex-with-icons-content">
+        <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
+          <div class="container pt-3 pb-3">
+            <P>Here on CulinaryShare, we have curated a wide range of lessons avaliable on our lessons page. These lessons cover a wide variety of topics, and are made to with pictures, examples, and even videos to make the lessons easy to understand, and learn from. We also have custom made quizzes to test you on what you learned! The lessons page is a perfect way to build up your culinary knowledge. It is also the perfect place to discover new, and possible better ways to cook in the kitchen!</p>
+            <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='learn';">
+            Start Learning <i class="material-symbols-outlined">school</i>
             </button>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel" aria-labelledby="ex-with-icons-tab-2">
-                <div class="container pt-3 pb-3">
-                    <P>Here on CulinaryShare, we have curated a wide range of meals that are easy to make, yet unique. Unlike other cooking sites, here you will find a wide variety of styles and cultures. You also provide you with popular dishes from your favorite places to eat!</p>
-                     <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='recipes';">
-
-                Recipes <i class="material-symbols-outlined">skillet</i>
-            </button>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="ex-with-icons-tabs-3" role="tabpanel" aria-labelledby="ex-with-icons-tab-3">
-                <div class="container pt-3 pb-3">
-                    <P>Once you have become a master in the kitchen, you can go one step further. With CulinaryShare, we give you an application for you to share your amazing recipes on, with us. If your recipes are approved, you can see them right on our site in the recipes section!</p>
-                    
-                     <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='create';">
-
-                Create Recipe <i class="material-symbols-outlined">globe</i>
-            </button>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- Tabs content -->
-        
-        <!-- Why Learn To Cook? - Dropdown Section -->
-<div class="container pt-4 pb-4">
- <h2>Why Learn to Cook?</h2>
-            <br>
-            <hr>
-
-            <br>
-            <div class="accordion accordion-borderless" id="afx">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="fh1x">
-                        <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
-                            Cooking can be a fun hobby
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOneX" class="accordion-collapse collapse show" aria-labelledby="fh1x" data-mdb-parent="#afx">
-                        <div class="accordion-body">
-                            Cooking for many is more than just putting food on a plate. For some, its a hobby. Hobbies are proven to destress people, and declutter there minds. Furthermore, next time your sitting around bored, you can cook!!!</div>
-                    </div>
-                </div>
-             <div class="accordion-item">
-                    <h2 class="accordion-header" id="fh2x">
-                        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
-                            Cooking at home can save money
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="fh2x" data-mdb-parent="#afx">
-                        <div class="accordion-body">
-                            Cooking at home can save money in many ways. Firstly, cooking at home substitutes going out to restaruants, wich are way expensiver than your grocery bill. Also, cooking at home makes you aware of the ingredients, enabling you to eliminate unecessary ingredients, or buy cheaper products, also cutting down on your bill.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="fh3x">
-                        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
-                            Cooking is an important life skill
-                        </button>
-
-                    </h2>
-
-                    <div id="flush-collapseThreeX" class="accordion-collapse collapse" aria-labelledby="fh3x" data-mdb-parent="#afx">
-                        <div class="accordion-body">
-                           I almost garentee you that during some point in your life, you will find the usefulness behind cooking. Maybe its the fact that your sick of having Instant Roman in your college dorm, or that you no longer have the money to go out to dinner, but still want restaurant quality meals. Whatever the case, cooking can prove to be a good and useful life skill to learn, and its also one that isnt very time consuming to learn, and is very flexible.
-                        </div>
-                    </div>
-                </div>
+        <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel" aria-labelledby="ex-with-icons-tab-2">
+          <div class="container pt-3 pb-3">
+            <P>Here on CulinaryShare, we have curated a wide range of meals that are easy to make, yet unique. Unlike other cooking sites, here you will find a wide variety of styles and cultures. You also provide you with popular dishes from your favorite places to eat!</p>
+            <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='recipes';">
+            Recipes <i class="material-symbols-outlined">skillet</i>
+            </button>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="ex-with-icons-tabs-3" role="tabpanel" aria-labelledby="ex-with-icons-tab-3">
+          <div class="container pt-3 pb-3">
+            <P>Once you have become a master in the kitchen, you can go one step further. With CulinaryShare, we give you an application for you to share your amazing recipes on, with us. If your recipes are approved, you can see them right on our site in the recipes section!</p>
+            <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white" onclick="window.location.href='create';">
+            Create Recipe <i class="material-symbols-outlined">globe</i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Tabs content -->
+      <!-- Why Learn To Cook? - Dropdown Section -->
+      <div class="container pt-4 pb-4">
+        <h2>Why Learn to Cook?</h2>
+        <br>
+        <hr>
+        <br>
+        <div class="accordion accordion-borderless" id="afx">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="fh1x">
+              <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
+              Cooking can be a fun hobby
+              </button>
+            </h2>
+            <div id="flush-collapseOneX" class="accordion-collapse collapse show" aria-labelledby="fh1x" data-mdb-parent="#afx">
+              <div class="accordion-body">
+                Cooking for many is more than just putting food on a plate. For some, its a hobby. Hobbies are proven to destress people, and declutter there minds. Furthermore, next time your sitting around bored, you can cook!!!
+              </div>
             </div>
-
-            <br>
-            <hr />
-            <br>
-</div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="fh2x">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
+              Cooking at home can save money
+              </button>
+            </h2>
+            <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="fh2x" data-mdb-parent="#afx">
+              <div class="accordion-body">
+                Cooking at home can save money in many ways. Firstly, cooking at home substitutes going out to restaruants, wich are way expensiver than your grocery bill. Also, cooking at home makes you aware of the ingredients, enabling you to eliminate unecessary ingredients, or buy cheaper products, also cutting down on your bill.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="fh3x">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
+              Cooking is an important life skill
+              </button>
+            </h2>
+            <div id="flush-collapseThreeX" class="accordion-collapse collapse" aria-labelledby="fh3x" data-mdb-parent="#afx">
+              <div class="accordion-body">
+                I almost garentee you that during some point in your life, you will find the usefulness behind cooking. Maybe its the fact that your sick of having Instant Roman in your college dorm, or that you no longer have the money to go out to dinner, but still want restaurant quality meals. Whatever the case, cooking can prove to be a good and useful life skill to learn, and its also one that isnt very time consuming to learn, and is very flexible.
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr />
+        <br>
+      </div>
     </div>
-
-   
-    
-
     <!-- Footer -->
-    
     <footer id="footer">
-        <!-- SVG: credit to Material Design Google -->
-        <svg width="100%" height="8" fill="none">
-            <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
-                <g clip-path="url(#clip0_2426_11367)">
-                    <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--footer-line-color)" stroke-linecap="square"></path>
-                </g>
-            </pattern>
-            <rect width="100%" height="100%" fill="url(#a)"></rect>
-        </svg>
-
-        <!-- Text Container -->
-        <div class="p-3 mt-5" style="text-align:left;overflow:hidden;">
-            <!-- Text Rows -->
-            <div class="row">
-                <div class="col-6" style="text-align:left;">
-                    <h6 class="mb-3">
-                        <i class="material-symbols-outlined" style="font-size:40px;">spa</i>
-                    </h6>
-                    <p style="text-align:left;font-size:16px;">
-                        Culinary Share is an application developed for the inovation project portion of a FLL competition. It's purpose is to assist people with lessons on how to cook, as well a provide unique recipes. Culinary Share was created during an FLL competition. 
-                    </p>
-                </div>
-
-                <div class="col-3" style="text-align:left;">
-                    <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
-                        Main Links
-                    </h6>
-                    <p>
-
-                        <a href="index.html" class="ft-link"><i class="material-symbols-outlined">home</i> Home</a>
-                    </p>
-                    <p>
-                        <a href="about.html" class="ft-link"> <i class="material-symbols-outlined">account_circle</i> About</a>
-                    </p>
-                    <p>
-                        <a href="recipes.html" class="ft-link"> <i class="material-symbols-outlined">skillet</i> Recipes</a>
-                    </p>
-                    <p>
-                        <a href="lessons.html" class="ft-link"><i class="material-symbols-outlined">school</i> Lessons</a>
-                    </p>
-
-                    <p>
-                        <a href="create.html" class="ft-link"><i class="material-symbols-outlined">pages</i> Create</a>
-                    </p>
-                </div>
-                <div class="col-3">
-                    <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
-                        Other Links
-                    </h6>
-
-                    <p>
-                        <a href="games.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">stadia_controller</i> Games</a>
-                    </p>
-                    <p>
-                        <a href="help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">robot_2</i> HelpAI</a>
-                    </p>
-                    <p>
-                        <a href="terms.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Terms</a>
-                    </p>
-                    <p>
-                        <a href="privacy.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Privacy Policy</a>
-                    </p>
-                    <p>
-                        <a href="help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">help</i> Help Center</a>
-                    </p>
-                </div>
-
-
-                <div class="mt-4 d-flex align-items-center">
-                    <p style="margin-right: 15px;width:100%;"><sub style="font-size:24px;">©</sub> 2023
-                        by <a href="" class="ft-link" target="_blank">CulinaryShare</a>
-
-
-
-                        <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Back to Top <i class="material-symbols-outlined" style="font-size:16px;transform:scale(1.5)translateY(-0.6px)translateX(1px);">arrow_upward</i></a>
-                        <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Feedback</a>
-                    </p>
-                </div>
-
-            </div>
+      <!-- SVG: credit to Material Design Google -->
+      <svg width="100%" height="8" fill="none">
+        <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
+          <g clip-path="url(#clip0_2426_11367)">
+            <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--footer-line-color)" stroke-linecap="square"></path>
+          </g>
+        </pattern>
+        <rect width="100%" height="100%" fill="url(#a)"></rect>
+      </svg>
+      <!-- Text Container -->
+      <div class="p-3 mt-5" style="text-align:left;overflow:hidden;">
+        <!-- Text Rows -->
+        <div class="row">
+          <div class="col-6" style="text-align:left;">
+            <h6 class="mb-3">
+              <i class="material-symbols-outlined" style="font-size:40px;">spa</i>
+            </h6>
+            <p style="text-align:left;font-size:16px;">
+              Culinary Share is an application developed for the inovation project portion of a FLL competition. It's purpose is to assist people with lessons on how to cook, as well a provide unique recipes. Culinary Share was created during an FLL competition. 
+            </p>
+          </div>
+          <div class="col-3" style="text-align:left;">
+            <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
+              Main Links
+            </h6>
+            <p>
+              <a href="index.html" class="ft-link"><i class="material-symbols-outlined">home</i> Home</a>
+            </p>
+            <p>
+              <a href="about.html" class="ft-link"> <i class="material-symbols-outlined">account_circle</i> About</a>
+            </p>
+            <p>
+              <a href="recipes.html" class="ft-link"> <i class="material-symbols-outlined">skillet</i> Recipes</a>
+            </p>
+            <p>
+              <a href="lessons.html" class="ft-link"><i class="material-symbols-outlined">school</i> Lessons</a>
+            </p>
+            <p>
+              <a href="create.html" class="ft-link"><i class="material-symbols-outlined">pages</i> Create</a>
+            </p>
+          </div>
+          <div class="col-3">
+            <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
+              Other Links
+            </h6>
+            <p>
+              <a href="games.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">stadia_controller</i> Games</a>
+            </p>
+            <p>
+              <a href="help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">robot_2</i> HelpAI</a>
+            </p>
+            <p>
+              <a href="terms.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Terms</a>
+            </p>
+            <p>
+              <a href="privacy.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Privacy Policy</a>
+            </p>
+            <p>
+              <a href="help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">help</i> Help Center</a>
+            </p>
+          </div>
+          <div class="mt-4 d-flex align-items-center">
+            <p style="margin-right: 15px;width:100%;"><sub style="font-size:24px;">©</sub> 2023
+              by <a href="" class="ft-link" target="_blank">CulinaryShare</a>
+              <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Back to Top <i class="material-symbols-outlined" style="font-size:16px;transform:scale(1.5)translateY(-0.6px)translateX(1px);">arrow_upward</i></a>
+              <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Feedback</a>
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
-
-<script src="scripts.js"></script>
-</body>
-
+    <script src="scripts.js"></script>
+  </body>
 </html>

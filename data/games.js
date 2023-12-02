@@ -1,4 +1,5 @@
-var games = [{
+var games = [
+    {
     name: "King of Steak",
     link: "javascript:(openLesson('essentialsofcooking1'));",
     thumb: "about.jpg",
@@ -10,8 +11,6 @@ var games = [{
     thumb: "about.jpg",
     votes: "Clicker",
 },
-
-
 ];
 
 function runGames() {
