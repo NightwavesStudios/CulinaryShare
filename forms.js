@@ -11,7 +11,7 @@ window.addEventListener("load", function() {
       })
       .then(() => {
         console.log("Form Sucessfully Transfered");
-        changePage("2");
+        window.location.href = "recipes";
         $("body").css("overflow-y", "scroll"); 
       })
     });
@@ -28,8 +28,8 @@ window.addEventListener("load", function() {
         body: submitData,
       })
       .then(() => {
-        console.log("Form Sucessfully Transfered");
         window.location.href = "recipes";
+        console.log("Form Sucessfully Transfered");
       })
     });
   });
