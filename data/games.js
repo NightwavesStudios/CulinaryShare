@@ -16,7 +16,7 @@ var games = [{
 
 function runGames() {
 for (var i = 0; i < games.length; i++) {
-    document.getElementById("game").innerHTML += `
+    document.getElementById("games").innerHTML += `
     <a href=${games[i].link}  style='margin:0;padding:0px !important;'>
     <div class="game">
     <img src='${games[i].thumb}'>
