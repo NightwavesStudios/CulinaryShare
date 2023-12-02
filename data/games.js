@@ -11,6 +11,7 @@ var games = [{
     votes: "Clicker",
 },
 
+
 ];
 
 function runGames() {
