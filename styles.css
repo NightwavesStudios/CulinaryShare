@@ -587,5 +587,6 @@
       border-radius:10px;
     }
 #videotutorial {
-       width:100vw;
+       width:100vh;
+       height:100vh;
 }
