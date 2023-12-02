@@ -1,15 +1,15 @@
 var games = [
     {
     name: "King of Steak",
-    link: "javascript:(openLesson('essentialsofcooking1'));",
+    link: "/games/kingofsteak/",
     thumb: "about.jpg",
-    votes: "Reaction Time",
+    category: "Reaction Time",
 },
 {
     name: "Carrot Clicker",
     link: "javascript:(openLesson('essentialsofcooking2'));",
-    thumb: "about.jpg",
-    votes: "Clicker",
+    thumb: "/games/carrotclicker",
+    category: "Clicker",
 },
 ];
 
@@ -22,7 +22,7 @@ for (var i = 0; i < games.length; i++) {
     <a class="title ft-link" href=${games[i].link} >${games[i].name}</a>
     <br>
     <span>
-    <i class="material-symbols-outlined">thumb_up</i> ${games[i].votes}
+    <i class="material-symbols-outlined">thumb_up</i> ${games[i].category}
     </span>
     </div>
     </a>
