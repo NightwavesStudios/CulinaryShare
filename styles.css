@@ -636,6 +636,7 @@
       border-radius:10px;
     }
 #videotutorial {
+       position:absolute;
        width:100vh;
        height:100vh;
        left:25vh;
