@@ -18,7 +18,7 @@ for (var i = 0; i < games.length; i++) {
     document.getElementById("games").innerHTML += `
     <a href=${games[i].link}  style='margin:0;padding:0px !important;'>
     <div class="lesson">
-    <img src='${games[i].thumb}'>
+    <img data-src='${games[i].thumb}'>
     <a class="title ft-link" href=${games[i].link} >${games[i].name}</a>
     <br>
     <span>
