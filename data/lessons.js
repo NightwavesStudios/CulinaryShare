@@ -56,7 +56,7 @@ var lessons = [{
                 document.getElementById("lessons").innerHTML += `
                 <a href=${lessons[i].link}  style='margin:0;padding:0px !important;'>
                 <div class="lesson">
-                <img src='${lessons[i].thumb}'>
+                <img data-src='${lessons[i].thumb}'>
                 <a class="title ft-link" href=${lessons[i].link} >${lessons[i].name}</a>
                 <br>
                 <span>
