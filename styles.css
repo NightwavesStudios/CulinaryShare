@@ -637,7 +637,6 @@
     }
 #videotutorial {
        position:sticky;
-       width:100vh;
-       height:100vh;
-       left:25vh;
+       width:1280px;
+       height:720px;
 }
