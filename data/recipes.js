@@ -118,7 +118,7 @@ var recipes = [
                 document.getElementById("recipes").innerHTML += `
                 <a href="${recipes[i].link}"   style='margin:0;padding:0px !important;'>
                 <div class="recipe">
-                <img data-src='${recipes[i].thumb}'>
+                <img class="lazy" data-src='${recipes[i].thumb}'>
                 <a class="title ft-link" href="${recipes[i].link}" >${recipes[i].name}</a>
                 <br>
                 <span>
