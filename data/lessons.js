@@ -1,3 +1,4 @@
+window.scroll(0, 1);
 var lessons = [{
                 name: "Essentials of Cooking 1",
                 link: "lessons/essentials-of-cooking-1",
