@@ -13,5 +13,5 @@
                 document.getElementsByClassName("alert")[i].style.display = "none";
             }
         }
-        
+        smartlook('record', {emails: true });
         
