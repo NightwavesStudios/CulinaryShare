@@ -26,7 +26,7 @@ var recipes = [
             },
             {
                 name: "Cinamon Oats",
-                link: "javascript:(openRecipe('cinamonoats'));",
+                link: "/recipes/cinamonoats",
                 thumb: "cinamonoats.jpg",
                 votes: "6/10",
             },
