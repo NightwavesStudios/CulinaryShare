@@ -13,5 +13,22 @@
                 document.getElementsByClassName("alert")[i].style.display = "none";
             }
         }
-        smartlook('record', {emails: true });
+//Ad Blocker Script (GeeksForGeeks: https://www.geeksforgeeks.org/how-to-detect-adblocker-using-javascript
+        let fakeAd = document.createElement("div"); 
+  fakeAd.className =  
+  "textads banner-ads banner_ads ad-unit ad-zone ad-space adsbox"
+      
+  fakeAd.style.height = "1px"
+    
+  document.body.appendChild(fakeAd) 
+    
+  let x_width = fakeAd.offsetHeight; 
+  let msg = document.getElementById("msg") 
+    
+
+    if(x_width){ 
+      console.log("Ad Blocker Detection Passed") 
+    }else{ 
+      window.location.href = "adblock.html"
+    } 
         
