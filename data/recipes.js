@@ -13,12 +13,6 @@ var recipes = [
                 votes: "Zaxbys",
             },
             {
-                name: "Popsicles",
-                link: "/recipes/popsicles.html",
-                thumb: "popsicles.jpg",
-                votes: "4/10",
-            },
-            {
                 name: "No-Bake Brownies",
                 link: "/recipes/nobakebrownies.html",
                 thumb: "nobakebrownies.jpg",
@@ -32,70 +26,11 @@ var recipes = [
             },
             {
                 name: "Apple Butter",
-                link: "javascript:(openRecipe('applebutter'));",
+                link: "/recipes/applebutter",
                 thumb: "applebutter.jpg",
                 votes: "6/10",
             },
-            {
-                name: "Chicken Nuggets",
-                link: "javascript:(openRecipe('chickennuggets'));",
-                thumb: "chickennuggets.jpg",
-                votes: "Chick-Fil-A",
-            },
-            {
-                name: "Bean and Cheese Quesadilla",
-                link: "javascript:(openRecipe('beanandcheesequesadilla'));",
-                thumb: "beanandcheesequesadilla.jpg",
-                votes: "Moes Mexican Grill",
-            },
-            {
-                name: "Tomato Sandwich",
-                link: "javascript:(openRecipe('tomatosandwich'));",
-                thumb: "tomatoesandwich.jpg",
-                votes: "3/10",
-            },
-            {
-                name: "Lasagna",
-                link: "javascript:(openRecipe('lasagna'));",
-                thumb: "lasagna.jpg",
-                votes: "6/10",
-            },
-            {
-                name: "Dirt & Worms",
-                link: "javascript:(openRecipe('dirtandworms'));",
-                thumb: "dirtandworm.jpg",
-                votes: "GrubHub",
-            },
-            {
-                name: "Pimento Cheese Sandwich",
-                link: "javascript:(openRecipe('pimentocheesesandwich'));",
-                thumb: "pimentocheesesandwich.jpg",
-                votes: "6/10",
-            },
-            {
-                name: "BLT",
-                link: "javascript:(openRecipe('blt'));",
-                thumb: "blt.jpg",
-                votes: "Oak Grove Market",
-            },
-            {
-                name: "Hot Dog",
-                link: "javascript:(openRecipe('hotdog'));",
-                thumb: "hotdog.jpg",
-                votes: "3/10",
-            },
-            {
-              name: "Eggs",
-              link: "javascript:(openRecipe('eggs'));",
-              thumb: "eggs.jpeg",
-              votes: "6/10",
-            },
-            {
-              name: "Chocolate Covered Crackers",
-              link: "javascript:(openRecipe('chocolatecoveredritzcrackers'));",
-              thumb: "chocolatecoveredritzcrackers.jpg",
-              votes: "8/10",
-            },
+            
         ];
 
 
