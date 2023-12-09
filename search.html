@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      CulinaryShare
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600&family=Google+Sans+Text:wght@400;500&family=Roboto+Mono:wght@400;500&family=Passion+One:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+    rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js">
+    </script>
+    <link rel="icon" type="image/x-icon" href="CulinaryShareLogo.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body id="body">
+    <div id="scrim" onclick="toggle_el('menu','on');">
+    </div>
+    <nav class="navbar navbar-dark fixed-top" id="main-navbar">
+      <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" onclick="toggle_el('menu','on');" class="ripple navbar-toggler"
+      type="button">
+        <span class="material-symbols-outlined">
+          menu
+        </span>
+      </button>
+      <a class="navbar-brand me-2" href="#">
+        <img src="CulinaryShareLogo.png" height="40" alt="CulinaryShare Logo"
+        style="margin-right:5px;" />
+        CulinaryShare
+      </a>
+      <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" onclick="lightMode();" class="ripple navbar-toggler"
+      type="button">
+        <span class="material-symbols-outlined" id="theme-icon">
+          light_mode
+        </span>
+      </button>
+    </nav>
+    <div id="menu">
+      <div id="mtp">
+        <img src="CulinaryShareLogo.png">
+        <h2>
+          CulinaryShare
+        </h2>
+      </div>
+      <hr />
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" class="nvlink active ripple" href="javascript:toggle_el('menu','on');">
+        <i class="material-symbols-outlined">
+          close
+        </i>
+        <span>
+          Close
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="index.html">
+        <i class="material-symbols-outlined">
+          house
+        </i>
+        <span>
+          Home
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="about.html">
+        <i class="material-symbols-outlined">
+          account_circle
+        </i>
+        <span>
+          About
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="recipes.html">
+        <i class="material-symbols-outlined">
+          skillet
+        </i>
+        <span>
+          Recipes
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="lessons.html">
+        <i class="material-symbols-outlined">
+          school
+        </i>
+        <span>
+          Lessons
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="create.html">
+        <i class="material-symbols-outlined">
+          edit
+        </i>
+        <span>
+          Create
+        </span>
+      </a>
+      <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms"
+      data-mdb-ripple-centered="true" class="nvlink ripple" href="games.html">
+        <i class="material-symbols-outlined">
+          stadia_controller
+        </i>
+        <span>
+          Games
+        </span>
+      </a>
+      <div id="pts">
+        <a href="privacy.html">
+          Privacy Policy
+        </a>
+        <a href="terms.html">
+          Terms of service
+        </a>
+      </div>
+    </div>
+    <!-- Create Page -->
+    <div class="scene">
+      <div class="nav-block">
+      </div>
+      <div class="container pt-4 pb-4 para" style="overflow:hidden;">
+        <div class="bg-image" style="background-image:url('create.jpeg');background-position:left;background-attachment:fixed;height:150px;border-radius:10px;margin-bottom:50px;">
+          <img src="create.jpeg" class="w-100" style="opacity:0;" />
+          <div class="mask" style="background: linear-gradient(43deg,var(--gradient-image-bg-one),var(--gradient-image-bg-two));
+          ">
+            <h1 style="text-align:center;margin-top:35px;">
+              Create
+            </h1>
+          </div>
+        </div>
+        <h1 style="text-align:center;">
+          Create Recipe
+        </h1>
+        <hr>
+        <form data-netlify="true" action="https://script.google.com/macros/s/AKfycbyIq_BoirGUjut4glU0DMYNkMDlZJIe4u_09H8No8QBsjTIV8ZDv-gxbb5Qc4M6tI3h/exec"
+        method="POST" id="submitArticle" style="text-align:center;">
+          <input onkeydown="filter()" name="Type" value="Recipe Submission" style="visibility:hidden;">
+          <br>
+          Recipe Name:
+          <input type="text" minlength="3" maxlength="24" name="Recipe Name" placeholder="Recipe Name"
+          required>
+          <br>
+          <br>
+          Author:
+          <input minlength="3" name="Author" placeholder="Author Name" required>
+          <br>
+          <br>
+          Email (Not Shown On Article):
+          <input name="Email" type="email" placeholder="Email" required>
+          <br>
+          <br>
+          Prep Time:
+          <input maxlength="4" name="PrepTime" min="0" type="number" placeholder="Amount of Time Needed to Prepare Recipe"
+          style="width:90%;" required>
+          <br>
+          <br>
+          Cook Time:
+          <input maxlength="4" name="CookTime" min="0" type="number" placeholder="Amount of Time Needed to Cook Recipe"
+          style="width:90%;" required>
+          <br>
+          <br>
+          Serving Size:
+          <input maxlength="4" name="Servings" min="1" type="number" placeholder="How many Portions for One Average Person..."
+          style="width:90%;" required>
+          <br>
+          <br>
+          Ingredients (With Measurements):
+          <input minlength="3" name="Ingredients" placeholder="List of Ingredients and Amount Needed"
+          style="width:90%;" required>
+          <br>
+          <br>
+          Appliances Needed:
+          <input minlength="3" name="Appliances" placeholder="List of Needed Appliances to Make The Dish"
+          style="width:90%;" required>
+          <br>
+          <br>
+          Prep Instructions:
+          <input minlength="3" name="PrepInstructions" placeholder="Preperation Instructions"
+          style="width:90%;" required>
+          <br>
+          <br>
+          Cook Instructions:
+          <input minlength="3" name="CookInstructions" placeholder="Cooking Instructions"
+          style="width:90%;" required>
+          <br>
+          <br>
+          <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms"
+          data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white"
+          id="verifyFormSubmit" type="submit">
+            Submit Article
+          </button>
+        </form>
+      </div>
+      <br>
+      <br>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <!-- SVG: credit to Material Design Google -->
+      <svg width="100%" height="8" fill="none">
+        <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
+          <g clip-path="url(#clip0_2426_11367)">
+            <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+            stroke="var(--footer-line-color)" stroke-linecap="square">
+            </path>
+          </g>
+        </pattern>
+        <rect width="100%" height="100%" fill="url(#a)">
+        </rect>
+      </svg>
+      <!-- Text Container -->
+      <div class="p-3 mt-5" style="text-align:left;overflow:hidden;">
+        <!-- Text Rows -->
+        <div class="row">
+          <div class="col-6" style="text-align:left;">
+            <h6 class="mb-3">
+              <i class="material-symbols-outlined" style="font-size:40px;">
+                spa
+              </i>
+            </h6>
+            <p style="text-align:left;font-size:16px;">
+              Culinary Share is an application developed for the inovation project portion
+              of a FLL competition. It's purpose is to assist people with lessons on
+              how to cook, as well a provide unique recipes. Culinary Share was created
+              during an FLL competition.
+            </p>
+          </div>
+          <div class="col-3" style="text-align:left;">
+            <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
+              Main Links
+            </h6>
+            <p>
+              <a href="index.html" class="ft-link">
+                <i class="material-symbols-outlined">
+                  home
+                </i>
+                Home
+              </a>
+            </p>
+            <p>
+              <a href="about.html" class="ft-link">
+                <i class="material-symbols-outlined">
+                  account_circle
+                </i>
+                About
+              </a>
+            </p>
+            <p>
+              <a href="recipes.html" class="ft-link">
+                <i class="material-symbols-outlined">
+                  skillet
+                </i>
+                Recipes
+              </a>
+            </p>
+            <p>
+              <a href="lessons.html" class="ft-link">
+                <i class="material-symbols-outlined">
+                  school
+                </i>
+                Lessons
+              </a>
+            </p>
+            <p>
+              <a href="create.html" class="ft-link">
+                <i class="material-symbols-outlined">
+                  pages
+                </i>
+                Create
+              </a>
+            </p>
+          </div>
+          <div class="col-3">
+            <h6 class="mb-3" style="font-size:14px;color:var(--mn-txt-color);">
+              Other Links
+            </h6>
+            <p>
+              <a href="games.html" target="_blank" class="ft-link">
+                <i class="material-symbols-outlined">
+                  stadia_controller
+                </i>
+                Games
+              </a>
+            </p>
+            <p>
+              <a href="help.html" target="_blank" class="ft-link">
+                <i class="material-symbols-outlined">
+                  robot_2
+                </i>
+                HelpAI
+              </a>
+            </p>
+            <p>
+              <a href="terms.html" target="_blank" class="ft-link">
+                <i class="material-symbols-outlined">
+                  description
+                </i>
+                Terms
+              </a>
+            </p>
+            <p>
+              <a href="privacy.html" target="_blank" class="ft-link">
+                <i class="material-symbols-outlined">
+                  description
+                </i>
+                Privacy Policy
+              </a>
+            </p>
+            <p>
+              <a href="help.html" target="_blank" class="ft-link">
+                <i class="material-symbols-outlined">
+                  help
+                </i>
+                Help Center
+              </a>
+            </p>
+          </div>
+          <div class="mt-4 d-flex align-items-center">
+            <p style="margin-right: 15px;width:100%;">
+              <sub style="font-size:24px;">
+                ©
+              </sub>
+              2023 by
+              <a href="" class="ft-link" target="_blank">
+                CulinaryShare
+              </a>
+              <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">
+                Back to Top
+                <i class="material-symbols-outlined" style="font-size:16px;transform:scale(1.5)translateY(-0.6px)translateX(1px);">
+                  arrow_upward
+                </i>
+              </a>
+              <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">
+                Feedback
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts.js">
+    </script>
+  </body>
+
+</html> 
