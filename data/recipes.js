@@ -14,13 +14,13 @@ var recipes = [
             },
             {
                 name: "Popsicles",
-                link: "javascript:(openRecipe('popsicles'));",
+                link: "/recipes/popsicles.html",
                 thumb: "popsicles.jpg",
                 votes: "4/10",
             },
             {
                 name: "No-Bake Brownies",
-                link: "javascript:(openRecipe('nobakebrownies'));",
+                link: "/recipes/nobakebrownies.html",
                 thumb: "nobakebrownies.jpg",
                 votes: "7/10",
             },
