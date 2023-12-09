@@ -27,9 +27,7 @@
     
 
     if(x_width){ 
-            if (window.location.href = "adblock.html") {
-                    window.location.href = "index.html";
-            }
+            
       console.log("Ad Blocker Detection Passed") 
     }else{ 
       window.location.href = "adblock.html";
