@@ -9,25 +9,25 @@ var recipes = [
             {
                 name: "Grilled Cheese",
                 link: "/recipes/grilledcheese.html",
-                thumb: "/assets/images/GrilledCheese.jpg",
+                thumb: "../assets/images/GrilledCheese.jpg",
                 votes: "Zaxbys",
             },
             {
                 name: "No-Bake Brownies",
                 link: "/recipes/nobakebrownies.html",
-                thumb: "/assets/images/NoBakeOreoBrownies.jpg",
+                thumb: "../assets/images/NoBakeOreoBrownies.jpg",
                 votes: "7/10",
             },
             {
                 name: "Cinamon Oats",
                 link: "/recipes/cinamonoats",
-                thumb: "/assets/images/CinnamonOats.jpg",
+                thumb: "../assets/images/CinnamonOats.jpg",
                 votes: "6/10",
             },
             {
                 name: "Apple Butter",
                 link: "/recipes/applebutter",
-                thumb: "/assets/images/AppleButter.jpg",
+                thumb: "../assets/images/AppleButter.jpg",
                 votes: "6/10",
             },
             
