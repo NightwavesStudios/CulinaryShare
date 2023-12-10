@@ -1,7 +1,7 @@
 window.scroll(0, 1);
 var lessons = [{
                 name: "Essentials of Cooking 1",
-                link: "lessons/essentials-of-cooking-1",
+                link: "lessons/essentialsofcooking1",
                 thumb: "about.jpg",
                 votes: "10/10",
             },
