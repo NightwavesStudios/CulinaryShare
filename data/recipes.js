@@ -52,6 +52,7 @@ var recipes = [
             document.getElementById('recipes').innerHTML = "";
             for (var i = 0; i < recipes.length; i++) {
                 document.getElementById("recipes").innerHTML += `
+                <div class="box">
                 <a href="${recipes[i].link}"   style='margin:0;padding:0px !important;'>
                 <div class="recipe">
                 <img class="lazy" data-src='${recipes[i].thumb}'>
@@ -62,6 +63,7 @@ var recipes = [
                 </span>
                 </div>
                 </a>
+                </div>
                 `;
             }
         }
