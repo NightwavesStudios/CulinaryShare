@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    const form = document.getElementById('my-form');
+    const form = document.getElementById('submitArticle');
     form.addEventListener("submit", function(e) {
       console.log("Form is Requesting Transfer");
       e.preventDefault();
