@@ -1,33 +1,33 @@
 window.scroll(0,1);
-var games = [
+var contact = [
     {
     name: "King of Steak",
-    link: "/games/kingofsteak/",
+    link: "/contact/kingofsteak/",
     thumb: "about.jpg",
     category: "Reaction Time",
 },
 {
     name: "Carrot Clicker",
     link: "javascript:(openLesson('essentialsofcooking2'));",
-    thumb: "/games/carrotclicker",
+    thumb: "/contact/carrotclicker",
     category: "Clicker",
 },
 ];
 
-function runGames() {
-for (var i = 0; i < games.length; i++) {
-    document.getElementById("games").innerHTML += `
-    <a href=${games[i].link}  style='margin:0;padding:0px !important;'>
+function runContact() {
+for (var i = 0; i < contact.length; i++) {
+    document.getElementById("contact").innerHTML += `
+    <a href=${contact[i].link}  style='margin:0;padding:0px !important;'>
     <div class="lesson">
-    <img class="lazy" data-src='${games[i].thumb}'>
-    <a class="title ft-link" href=${games[i].link} >${games[i].name}</a>
+    <img class="lazy" data-src='${contact[i].thumb}'>
+    <a class="title ft-link" href=${contact[i].link} >${contact[i].name}</a>
     <br>
     <span>
-    <i class="material-symbols-outlined">thumb_up</i> ${games[i].category}
+    <i class="material-symbols-outlined">thumb_up</i> ${contact[i].category}
     </span>
     </div>
     </a>
     `;
 }
 }
-runGames();
+runContact();
