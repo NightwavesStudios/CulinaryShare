@@ -3,7 +3,13 @@ var lessons = [{
                 name: "Essentials of Cooking 1",
                 link: "lessons/essentialsofcooking1",
                 thumb: "about.jpg",
-                votes: "10/10",
+                votes: "Essentials",
+            },
+            {
+                name: "Benefits of Gardening"
+                link: "lessons/benefitsofgardening"
+                thumb: "about.jpg"
+                votes: "Gardening"
             },
           
         ];
@@ -17,7 +23,7 @@ var lessons = [{
                 <a class="title ft-link" href=${lessons[i].link} >${lessons[i].name}</a>
                 <br>
                 <span>
-                <i class="material-symbols-outlined">thumb_up</i> ${lessons[i].votes}
+                <i class="material-symbols-outlined">bookmark</i> ${lessons[i].votes}
                 </span>
                 </div>
                 </a>
