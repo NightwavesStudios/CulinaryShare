@@ -6,9 +6,9 @@ var lessons = [{
                 votes: "Essentials",
             },
             {
-                name: "Benefits of Gardening"
-                link: "lessons/benefitsofgardening"
-                thumb: "about.jpg"
+                name: "Benefits of Gardening",
+                link: "lessons/benefitsofgardening",
+                thumb: "about.jpg",
                 votes: "Gardening"
             },
           
