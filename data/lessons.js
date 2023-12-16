@@ -2,13 +2,13 @@ window.scroll(0, 1);
 var lessons = [{
                 name: "Essentials of Cooking 1",
                 link: "lessons/essentialsofcooking1",
-                thumb: "about.jpg",
+                thumb: "../recipes.jpg",
                 votes: "Essentials",
             },
             {
                 name: "Benefits of Gardening",
                 link: "lessons/benefitsofgardening",
-                thumb: "about.jpg",
+                thumb: "../assets/images/gardening.png",
                 votes: "Gardening"
             },
           
