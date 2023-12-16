@@ -1,4 +1,4 @@
-window.scroll(0, 1);
+window.scroll(0, 50);
 var recipes = [
   {
                 name: "Salchi Papas",
