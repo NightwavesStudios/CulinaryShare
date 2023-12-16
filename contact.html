@@ -95,7 +95,16 @@
 
             <br>
           <form name="contact" method="post" action="contact.php">
-              Name: <input>
+              Name: <input name="Name" type="text" maxlength="50" required><br><br>
+              Email: <input name="Email" type="email" required><br><br>
+              Subject: <input name="Subject" required><br><br>
+              Problem/Question/Feedback: <textarea minlength="3" name="Question" placeholder="Insert Your Question Here (Ex: How Long Will It Take For My Recipe To Be Processed?)"
+              style="width:90%;" required></textarea><br><br>
+              <button data-mdb-ripple-color="rgb(222, 222, 222)" data-mdb-ripple-duration="300ms"
+          data-mdb-ripple-centered="false" class="btn jumbo-btn  btn-rounded text-white"
+          type="submit">
+            Submit Article
+          </button>
           </form>
 
             <br>
