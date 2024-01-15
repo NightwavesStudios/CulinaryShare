@@ -2,7 +2,7 @@ window.scroll(0, 1);
 var lessons = [{
                 name: "Making sourdough Bread",
                 link: "lessons/essentialsofcooking1",
-                thumb: "../assets/images/sourdoughbread.jpg",
+                thumb: "../assets/images/sourdoughbread.png",
                 votes: "Baking",
             },
             {
