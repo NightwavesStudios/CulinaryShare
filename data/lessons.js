@@ -1,9 +1,9 @@
 window.scroll(0, 1);
 var lessons = [{
-                name: "Essentials of Cooking 1",
+                name: "Making sourdough Bread",
                 link: "lessons/essentialsofcooking1",
-                thumb: "../recipes.jpg",
-                votes: "Essentials",
+                thumb: "../assets/images/sourdoughbread.jpg",
+                votes: "Baking",
             },
             {
                 name: "Benefits of Gardening",
