@@ -640,3 +640,8 @@
 textarea{
 resize: vertical;
 }
+.alert {
+        width: 100%;
+        border-radius: 20px;
+        background-color: #FF5B00;
+}
