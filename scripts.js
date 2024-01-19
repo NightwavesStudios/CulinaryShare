@@ -30,7 +30,7 @@
             
       console.log("Ad Blocker Detection Passed") 
     }else{ 
-      window.location.href = "adblock.html";
+      window.location.href = "../adblock.html";
     } 
 smartlook('record', { forms: true, numbers: false, emails: true, ips: true })
         
