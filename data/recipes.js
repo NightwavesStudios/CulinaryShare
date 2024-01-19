@@ -31,7 +31,7 @@ var recipes = [
                 votes: "Spread",
             },
             {
-                name: "Easy, Crunchy, Moist Brownies",
+                name: "Easy Crunchy Moist Brownies",
                 link: "/recipes/easycrunchymoistbrownies",
                 thumb: "../assets/images/easyCrunchyMoistBrownies.png",
                 votes: "Baking, Dessert",
