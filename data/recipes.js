@@ -10,27 +10,32 @@ var recipes = [
                 name: "Grilled Cheese",
                 link: "/recipes/grilledcheese.html",
                 thumb: "../assets/images/GrilledCheese.png",
-                votes: "Simple & Quick",
+                votes: "Simple, Quick",
             },
             {
                 name: "No-Bake Brownies",
                 link: "/recipes/nobakebrownies.html",
                 thumb: "../assets/images/NoBakeOreoBrownies.png",
-                votes: "Baking",
+                votes: "No-Bake, Dessert",
             },
             {
                 name: "Cinamon Oats",
                 link: "/recipes/cinamonoats",
                 thumb: "../assets/images/CinnamonOats.png",
-                votes: "Breakfast Recipe",
+                votes: "Breakfast, Quick",
             },
             {
                 name: "Apple Butter",
                 link: "/recipes/applebutter",
                 thumb: "../assets/images/AppleButter.png",
-                votes: "Breakfast & Dessert Topper",
+                votes: "Spread",
             },
-            
+            {
+                name: "Easy, Crunchy, Moist Brownies",
+                link: "/recipes/easycrunchymoistbrownies",
+                thumb: "../assets/images/easyCrunchyMoistBrownies.png",
+                votes: "Baking, Dessert",
+            },
         ];
 
 
