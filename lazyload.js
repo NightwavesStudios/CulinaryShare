@@ -1,3 +1,4 @@
+/** Lazy Load Script for Recipe Images  **/
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages = document.querySelectorAll("img.lazy");    
   var lazyloadThrottleTimeout;
