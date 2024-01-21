@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /search/
 
 Sitemap: https://www.culinaryshare.netlify.app/sitemap.xml
