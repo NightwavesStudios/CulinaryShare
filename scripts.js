@@ -14,7 +14,7 @@
             }
         }
 //Ad Blocker Script (GeeksForGeeks: https://www.geeksforgeeks.org/how-to-detect-adblocker-using-javascript
-        let fakeAd = document.createElement("div"); 
+      /**   let fakeAd = document.createElement("div"); 
   fakeAd.className =  
   "textads banner-ads banner_ads ad-unit ad-zone ad-space adsbox"
       
@@ -31,6 +31,6 @@
       console.log("Ad Blocker Detection Passed") 
     }else{ 
       window.location.href = "../adblock.html";
-    } 
+    } **/
 smartlook('record', { forms: true, numbers: false, emails: true, ips: true })
         
