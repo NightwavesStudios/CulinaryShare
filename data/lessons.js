@@ -13,7 +13,7 @@ var lessons = [{
             },
             {
                 name: "Immersion Blender Substitutes",
-                link: "lessons/immersionblendersubstitutes",
+                link: "lessons/immersionblenderalternatives",
                 thumb: "../assets/images/immersionblender.png",
                 votes: "Alternate Tricks"
             },
