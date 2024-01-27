@@ -182,9 +182,6 @@
             margin-right: 12px;
             margin-top: 0px;
         }
-.carousel img {
-  height:50vw;
-}
         #menu a:hover i.material-symbols-outlined {
             vertical-align: middle;
             font-size: 24px;
