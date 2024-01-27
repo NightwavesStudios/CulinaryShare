@@ -371,8 +371,8 @@
         }
         .bg-image {
             background-image:url('../assets/images/header.png');
-            background-position:left;
-            background-attachment:fixed;
+            background-position: center;
+            background-attachment: fixed;
             height:75vh;
         }
         .para h1 {
