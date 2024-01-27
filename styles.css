@@ -605,9 +605,12 @@ resize: vertical;
         border-radius: 20px;
         background-color:#F0EDDD;
 }
+.popular-recipes-container {
+    width: 100vw;
+    }
 .popular-recipes-container img {
 width: 20vw;
-height: 20vh;
+height: 20vw;
 border-radius: 50px;
 margin: 5vw;
 }
