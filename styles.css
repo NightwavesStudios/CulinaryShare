@@ -611,6 +611,10 @@ resize: vertical;
 .popular-recipes-container img {
 width: 20vw;
 height: 20vw;
-border-radius: 50px;
+border-radius: 50%;
 margin: 2vw;
 }
+.popular-recipes-container img:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    }
