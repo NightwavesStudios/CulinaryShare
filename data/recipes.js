@@ -14,7 +14,7 @@ var recipes = [
             },
             {
                 name: "No-Bake Brownies",
-                link: "/recipes/nobakebrownies.html",
+                link: "/recipes/nobakeoreobrownies.html",
                 thumb: "../assets/images/NoBakeOreoBrownies.png",
                 votes: "No-Bake, Dessert",
             },
