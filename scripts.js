@@ -13,6 +13,8 @@
                 document.getElementsByClassName("alert")[i].style.display = "none";
             }
         }
+        //Parallax Scrolling Function (If Not SUpported)
+        if (CSS.supports(""))
 //Ad Blocker Script (GeeksForGeeks: https://www.geeksforgeeks.org/how-to-detect-adblocker-using-javascript
       /**   let fakeAd = document.createElement("div"); 
   fakeAd.className =  

@@ -369,8 +369,12 @@
         .article-at {
             padding: 15px 40px;
         }
-
-
+        .bg-image {
+            background-image:url('../assets/images/header.png');
+            background-position:left;
+            background-attachment:fixed;
+            height:75vh;
+        }
         .para h1 {
             font-size: 65px;
             font-family: "Roboto", arial;
