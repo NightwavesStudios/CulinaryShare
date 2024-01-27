@@ -374,7 +374,7 @@
             background-position: center;
             background-attachment: fixed;
             height:75vh;
-            width: 100vw;
+            background-size: 50%;
         }
         .para h1 {
             font-size: 65px;
