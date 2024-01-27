@@ -615,6 +615,7 @@ height: 20vw;
 border-radius: 50%;
 margin: 2vw;
 min-width: 100px;
+min-height: 100px;
 }
 .popular-recipes-container img:hover {
     cursor: pointer;
