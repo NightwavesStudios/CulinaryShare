@@ -11,6 +11,12 @@ var lessons = [{
                 thumb: "../assets/images/gardening.png",
                 votes: "Gardening"
             },
+            {
+                name: "Immersion Blender Substitutes",
+                link: "lessons/immersionblendersubstitutes",
+                thumb: "../assets/images/immersionblender.png",
+                votes: "Alternate Tricks"
+            },
           
         ];
 
