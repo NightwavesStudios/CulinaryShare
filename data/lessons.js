@@ -12,7 +12,7 @@ var lessons = [{
                 votes: "Gardening"
             },
             {
-                name: "Immersion Blender Substitutes",
+                name: "Immersion Blender Alt.",
                 link: "lessons/immersionblenderalternatives",
                 thumb: "../assets/images/immersionblender.png",
                 votes: "Alternate Tricks"
