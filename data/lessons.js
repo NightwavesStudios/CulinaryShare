@@ -17,7 +17,12 @@ var lessons = [{
                 thumb: "../assets/images/immersionblender.png",
                 votes: "Alternate Tricks"
             },
-          
+            {
+                name: "How To Crack Eggs",
+                link: "lessons/howtocrackeggs",
+                thumb: "../assets/images/howtocrackeggs.png",
+                votes: "Tips & Tricks"
+            },
         ];
 
         function runLessons() {
