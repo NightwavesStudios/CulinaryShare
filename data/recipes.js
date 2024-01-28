@@ -2,19 +2,19 @@ window.scroll(0, 50);
 var recipes = [
   {
                 name: "Salchi Papas",
-                link: "/recipes/salchipapas.html",
+                link: "/recipes/salchipapas",
                 thumb: "salchipapas.jpg",
                 votes: "Colombian Dish",
             },
             {
                 name: "Grilled Cheese",
-                link: "/recipes/grilledcheese.html",
+                link: "/recipes/grilledcheese",
                 thumb: "../assets/images/GrilledCheese.png",
                 votes: "Simple, Quick",
             },
             {
                 name: "No-Bake Brownies",
-                link: "/recipes/nobakeoreobrownies.html",
+                link: "/recipes/nobakeoreobrownies",
                 thumb: "../assets/images/NoBakeOreoBrownies.png",
                 votes: "No-Bake, Dessert",
             },
