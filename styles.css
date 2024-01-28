@@ -621,3 +621,6 @@ min-height: 100px;
     cursor: pointer;
     border-radius: 100%;
     }
+#recipetitle {
+    color: black;
+}
