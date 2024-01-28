@@ -3,25 +3,25 @@ var lessons = [{
                 name: "Making sourdough Bread",
                 link: "lessons/makingsourdoughbread",
                 thumb: "../assets/images/sourdoughbread.png",
-                votes: "Baking",
+                category: "Baking",
             },
             {
                 name: "Benefits of Gardening",
                 link: "lessons/benefitsofgardening",
                 thumb: "../assets/images/gardening.png",
-                votes: "Gardening"
+                category: "Gardening"
             },
             {
                 name: "Immersion Blender Alt.",
                 link: "lessons/immersionblenderalternatives",
                 thumb: "../assets/images/immersionblender.png",
-                votes: "Alternate Tricks"
+                category: "Alternate Tricks"
             },
             {
                 name: "How To Crack Eggs",
                 link: "lessons/howtocrackeggs",
                 thumb: "../assets/images/howtocrackeggs.png",
-                votes: "Tips & Tricks"
+                category: "Tips & Tricks"
             },
         ];
 
@@ -34,7 +34,7 @@ var lessons = [{
                 <a class="title ft-link" href=${lessons[i].link} >${lessons[i].name}</a>
                 <br>
                 <span>
-                <i class="material-symbols-outlined">bookmark</i> ${lessons[i].votes}
+                <i class="material-symbols-outlined">bookmark</i> ${lessons[i].category}
                 </span>
                 </div>
                 </a>
