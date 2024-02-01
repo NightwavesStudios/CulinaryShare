@@ -495,7 +495,66 @@
         .recipe span i.material-symbols-outlined {
             vertical-align: middle;
         }
-        
+        #courses {
+
+
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+ 
+ 
+        }
+ 
+ 
+        .course {
+            width: 250px;
+            background: var(--mn-active-bg-color);
+            height: 320px;
+            margin: 20px 0px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 30px 30px 10px 10px;
+        }
+ 
+ 
+        .course:hover {
+            transform: scale(1.025);
+            border-radius: 30px 30px 20px 20px;
+        }
+ 
+ 
+        .course:hover img {
+            border-radius: 20px 20px 0 0;
+        }
+ 
+ 
+        .course img {
+            border-radius: 10px 10px 0 0;
+            width: 250px;
+            height: 250px;
+            cursor: pointer;
+        }
+ 
+ 
+        .course a {
+            padding: 15px;
+        }
+ 
+ 
+        .course span {
+            padding: 15px;
+            width: 200px;
+            font-size: 17px;
+            line-height: 36px;
+        }
+ 
+ 
+        .course span i.material-symbols-outlined {
+            vertical-align: middle;
+        }
+ 
+ 
         #jkl {
             position:fixed;
             top: 0;
