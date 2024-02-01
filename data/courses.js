@@ -1,9 +1,16 @@
 window.scroll(0, 1);
-var courses = [{
+var courses = [
+    {
                 name: "Dutch Oven Basics",
                 link: "courses/dutchovenbasics",
                 thumb: "../assets/images/dutchovenbasics.png",
-                skilllevel: "Begginer",
+                skilllevel: "Beginner",
+            },
+            {
+                name: "Start A Garden",
+                link: "courses/startagarden",
+                thumb: "../assets/images/startagarden.png",
+                skilllevel: "Beginner",
             },
         ];
 
