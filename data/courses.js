@@ -1,27 +1,9 @@
 window.scroll(0, 1);
 var courses = [{
-                name: "Making sourdough Bread",
-                link: "courses/makingsourdoughbread",
-                thumb: "../assets/images/sourdoughbread.png",
-                category: "Baking",
-            },
-            {
-                name: "Benefits of Gardening",
-                link: "courses/benefitsofgardening",
-                thumb: "../assets/images/gardening.png",
-                category: "Gardening"
-            },
-            {
-                name: "Immersion Blender Alt.",
-                link: "courses/immersionblenderalternatives",
-                thumb: "../assets/images/immersionblender.png",
-                category: "Alternate Tricks"
-            },
-            {
-                name: "How To Crack Eggs",
-                link: "courses/howtocrackeggs",
-                thumb: "../assets/images/howtocrackeggs.png",
-                category: "Tips & Tricks"
+                name: "Dutch Oven Basics",
+                link: "courses/dutchovenbasics",
+                thumb: "../assets/images/dutchovenbasics.png",
+                skilllevel: "Begginer",
             },
         ];
 
@@ -34,7 +16,7 @@ var courses = [{
                 <a class="title ft-link" href=${courses[i].link} >${courses[i].name}</a>
                 <br>
                 <span>
-                <i class="material-symbols-outlined">bookmark</i> ${courses[i].category}
+                <i class="material-symbols-outlined">bookmark</i> ${courses[i].skilllevel}
                 </span>
                 </div>
                 </a>
