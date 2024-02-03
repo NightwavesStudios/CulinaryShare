@@ -36,6 +36,12 @@ var recipes = [
                 thumb: "../assets/images/easycrunchymoistbrownies.jpg",
                 votes: "Baking, Dessert",
             },
+   {
+                name: "Energy Bites",
+                link: "/recipes/energybites",
+                thumb: "energybites.png",
+                votes: "No Bake, Snacks",
+            },
         ];
 
 
