@@ -17,7 +17,9 @@
 </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CulinaryShare - Lesson - How to Quick Pickle Vegetables</title>
+    <meta name="description" content="Learn many different cooking techniques to up your cooking game. Our lessons are designed to be oriented to all ages and skill levels, and we offer many different topics and levels.">
+
+    <title>CulinaryShare - Courses</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600&family=Google+Sans+Text:wght@400;500&family=Roboto+Mono:wght@400;500&family=Passion+One:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -25,9 +27,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
     
     
-    <link rel="icon" type="image/x-icon" href="../../assets/images/CulinaryShareLogo.png">
+    <link rel="icon" type="image/x-icon" href="../assets/images/CulinaryShareLogo.png">
 
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
 <!-- BEGIN: Benchmark Email Signup Form Code -->
 <script type="text/javascript" id="lbscript1756212" src="https://lb.benchmarkemail.com//code/lbformnew.js?mFcQnoBFKMRHk%252Botmbr9vMxpSu0%252BSv5KR%252F6AhZoPvMs7BBJmL9nMecj9ybR%252Bnt%252Fk"></script><noscript>Please enable JavaScript <br /><div align="center" style="padding-top:5px;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#999999;"><a href="https://www.benchmarkemail.com/email-marketing?utm_source=usersignupforms&utm_medium=customers&utm_campaign=usersignupforms" target="_new" style="text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#999999;">Email Marketing </a> by Benchmark</div></noscript>
 <!-- END: Benchmark Email Signup Form Code -->
@@ -36,17 +38,18 @@
 
 <body>
     <div id="scrim" onclick="toggle_el('menu','on');"></div>
+    
+    
 
     
 
     <nav class="navbar navbar-dark fixed-top" id="main-navbar">
-        <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="window.location.href = '../lessons';" class="ripple navbar-toggler" type="button">
-            <span class="material-symbols-outlined">arrow_back</span>
+        <button data-mdb-ripple-color="rgb(117, 117, 117)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" onclick="toggle_el('menu','on');" class="ripple navbar-toggler" type="button">
+            <span class="material-symbols-outlined">menu</span>
         </button>
-            
 
         <a class="navbar-brand me-2" href="#">
-            <img alt="CulinaryShare Logo" src="../../assets/images/CulinaryShareLogo.png" height="40" alt="CulinaryShare Logo" style="margin-right:5px;" />
+            <img alt="CulinaryShare Logo" src="../assets/images/CulinaryShareLogo.png" height="40" alt="CulinaryShare Logo" style="margin-right:5px;" />
             CulinaryShare
         </a>
 
@@ -55,11 +58,37 @@
         </button>
     </nav>
 
-   
-    <br><br>
-    <div class="container pt-4 pb-4 para" style="overflow:hidden;">
-            <div class="bg-image" id="image" style="background-position:left;background-attachment:fixed;height:150px;border-radius:10px;margin-bottom:50px;">
-                <img alt="How to Quick Pickle Vegetables Image" src="../assets/images/howtoquickpicklevegetables.png" class="w-100" style="opacity:0;" />
+   <div id="menu">
+        <div id="mtp">
+            <img alt="CulinaryShare Logo" src="../assets/images/CulinaryShareLogo.png">
+            <h2>CulinaryShare</h2>
+        </div>
+        <hr />
+        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink active ripple" href="javascript:toggle_el('menu','on');"><i class="material-symbols-outlined">close</i><span>Close</span></a>
+        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="index.html"><i class="material-symbols-outlined">house</i><span>Home</span></a>
+        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="300ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="about.html"><i class="material-symbols-outlined">account_circle</i><span>About</span></a>
+        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="recipes.html"><i class="material-symbols-outlined">skillet</i><span>Recipes</span></a>
+        
+        <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="lessons.html"><i class="material-symbols-outlined">school</i><span>Lessons</span></a>
+
+         <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="courses.html"><i class="material-symbols-outlined">school</i><span>Courses</span></a>
+
+          <a data-mdb-ripple-color="rgb(105, 105, 105)" data-mdb-ripple-duration="500ms" data-mdb-ripple-centered="true" class="nvlink ripple" href="create.html"><i class="material-symbols-outlined">edit</i><span>Create</span></a>
+
+        <div id="pts">
+            <a href="privacypolicy.html">Privacy Policy</a>
+            <a href="termsofservice.html">Terms of service</a>
+        </div>
+    </div>
+    
+    
+
+    <div class="scene">
+        <div class="nav-block"></div>
+
+        <div class="container pt-4 pb-4 para" style="overflow:hidden;">
+            <div class="bg-image" style="background-image:url('learncooking.png');background-position:left;background-size:120%;background-attachment:fixed;height:150px;border-radius:10px;margin-bottom:50px;">
+                <img alt="Learn Header Image" src="learncooking.png" class="w-100" style="opacity:0;" />
                 <div class="mask" style="
       background: linear-gradient(
         43deg,
@@ -67,38 +96,33 @@
         var(--gradient-image-bg-two)
       );
     ">
-                    <h1 style="text-align:center;margin-top:35px;" id="recipetitle"> How to Quick Pickle Vegetables</h1>
+                    <h1 style="text-align:center;margin-top:35px;">Courses</h1>
 
                 </div>
             </div>
-          <br />
-      <div style="color:black;">
-        Quick Pickling is a way to pickle vegetables without all of the extra work of canning that is involved in regular pickling. This lesson will teach you how to quick pickle any type of fresh vegetable.<br><br><hr><br><br>
-        <h2>Gathering The Ingredients</h2><br>
-        For this lesson, you will need the following ingredients:<br>
-        <ul>
-            <li>Fresh Vegetables (With No Scratches or Bruises)</li>
-            <li>Water</li>
-            <li>1 Cup Vinegar</li>
-            <li>1 Cup Water</li>
-            <li>1 Tablespoon Kosher Salt</li>
-            <li>1 Pound Fresh Vegetables (Such As Cucumbers, Carrots, Green Beans, Summer Squash, or Cherry Tomatoes)</li>
-            <li>1 to 2 teaspoons whole spices (Optional for Flavoring)</li>
-            <li>2 Sprigs Fresh Herbs (Optional For Flavoring)</li>
-            <li>1 Tablespoon Granulated Sugar (Optional For Flavoring)</li>
-            <li></li>
-        </ul><br><br><hr><br><br>
-        <h2>Preparing Vegetables</h2><br>
-        To prepare your fresh vegetables, wash them in warm water (see <a href="../lessons/howtowashvegetables.html">how to wash vegetables</a>). Then, hand dry them with a towel. Next, cut up vegetables into desired shapes and sizes with a chef's knife. If you are pickeling carrots, make shure to peel them before cutting.<br><br><hr><br><br>
-        <h2>Preparing Jars</h2><br>
-        For this recipe, you will need two wide mouth pint jars. To prepare them, you will first need to sanatize them. To sanatize, wash the jars in warm soapy water. Rinse them well, and hand dry with towels.<br><br><hr><b><br>
-        <h2>Adding Desired Flavor</h2><br>
-        Divide all of the ingredients you bought with the (Optional For Flavoring) marking into your two jars. If you don't have any flavoring ingredients, skip this step<br><br><hr><br><br>
+
+            
+
+            <br>
+            <h2>Courses</h2>
+            <br>
+            <hr>
+
+            <br>
+<div id="courses"></div>
+
+            <br>
+            <hr />
+            <br>
+        <div class="container pt-4 pb-4">
+            <p>Looks like you've reached the end!<br>We try to add courses often. Until then, you can <a href="mailto:culinaryshare@gmail.com">contact us</a> to suggest a lesson you want to see!</p>
         </div>
     </div>
-
+<!-- Hidden Links (For Crawlers) -->
+<div style="visibility: hidden;">
+   
+    </div>
     <!-- Footer -->
-    
     <footer id="footer">
         <!-- SVG: credit to Material Design Google -->
         <svg width="100%" height="8" fill="none">
@@ -129,20 +153,20 @@
                     </h6>
                     <p>
 
-                        <a href="../index.html" class="ft-link"><i class="material-symbols-outlined">home</i> Home</a>
+                        <a href="index.html" class="ft-link"><i class="material-symbols-outlined">home</i> Home</a>
                     </p>
                     <p>
-                        <a href="../about.html" class="ft-link"> <i class="material-symbols-outlined">account_circle</i> About</a>
+                        <a href="about.html" class="ft-link"> <i class="material-symbols-outlined">account_circle</i> About</a>
                     </p>
                     <p>
-                        <a href="../recipes.html" class="ft-link"> <i class="material-symbols-outlined">skillet</i> Recipes</a>
+                        <a href="recipes.html" class="ft-link"> <i class="material-symbols-outlined">skillet</i> Recipes</a>
                     </p>
                     <p>
-                        <a href="../lessons.html" class="ft-link"><i class="material-symbols-outlined">school</i> Lessons</a>
+                        <a href="lessons.html" class="ft-link"><i class="material-symbols-outlined">school</i> Lessons</a>
                     </p>
 
                     <p>
-                        <a href="../create.html" class="ft-link"><i class="material-symbols-outlined">pages</i> Create</a>
+                        <a href="create.html" class="ft-link"><i class="material-symbols-outlined">pages</i> Create</a>
                     </p>
                 </div>
                 <div class="col-3">
@@ -151,19 +175,19 @@
                     </h6>
 
                     <p>
-                        <a href="../contact.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">stadia_controller</i> Contact</a>
+                        <a href="contact.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">stadia_controller</i> Contact</a>
                     </p>
                     <p>
                         <a href="#" class="termly-display-preferences ft-link" target="_blank"><i class="material-symbols-outlined">cookie</i> Consent Preferences</a>
                     </p>
                     <p>
-                        <a href="../termsofservice.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Terms</a>
+                        <a href="termsofservice.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Terms</a>
                     </p>
                     <p>
-                        <a href="../privacypolicy.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Privacy Policy</a>
+                        <a href="privacypolicy.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">description</i> Privacy Policy</a>
                     </p>
                     <p>
-                        <a href="../help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">help</i> Help Center</a>
+                        <a href="help.html" target="_blank" class="ft-link"><i class="material-symbols-outlined">help</i> Help Center</a>
                     </p>
                 </div>
 
@@ -174,7 +198,7 @@
 
 
 
-                        <a href="#" class="  badge ft-link" style="color:var(--nv-txt-color);float:right;">Back to Top <i class="material-symbols-outlined" style="font-size:16px;transform:scale(1.5)translateY(-0.6px)translateX(1px);">arrow_upward</i></a>
+                        <a href="#" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Back to Top <i class="material-symbols-outlined" style="font-size:16px;transform:scale(1.5)translateY(-0.6px)translateX(1px);">arrow_upward</i></a>
                         <a href="https://o8av7g5ri4r.typeform.com/to/ScrOcSVZ" class="badge ft-link" style="color:var(--nv-txt-color);float:right;">Feedback</a>
                     </p>
                 </div>
@@ -183,8 +207,7 @@
         </div>
     </footer>
 
-<script src="../scripts.js"></script>
-    
+<script src="scripts.js"></script>
 </body>
 
 </html>
