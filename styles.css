@@ -681,3 +681,9 @@ margin: 2vw;
 #recipetitle {
     color: black;
 }
+.coursesChild {
+    border: none;
+    background-color: #F0EDDD; 
+    border-radius: 20px;
+    width: 100%;
+}
