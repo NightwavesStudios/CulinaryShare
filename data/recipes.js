@@ -42,6 +42,12 @@ var recipes = [
                 thumb: "energybites.png",
                 votes: "No Bake, Snacks",
             },
+  {
+                name: "Bean and Cheese Quesadilla",
+                link: "/recipes/beanandcheesequesadilla",
+                thumb: "beanandcheesequesadilla.png",
+                votes: "Mexican",
+            },
         ];
 
 
