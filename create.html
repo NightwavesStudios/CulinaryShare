@@ -368,6 +368,7 @@
 
     <!-- Disable Linebreaks -->
     <script>
+  document.addEventListener('paste', e => e.preventDefault());    
   document.addEventListener("keydown", (e) => {
   if (e.keyCode === 13) {
     e.preventDefault();
