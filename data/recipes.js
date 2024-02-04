@@ -48,6 +48,12 @@ var recipes = [
                 thumb: "beanandcheesequesadilla.png",
                 votes: "Mexican",
             },
+   {
+                name: "Roasted Tomatoes",
+                link: "/recipes/roastedtomatoes",
+                thumb: "roastedtomatoes.html",
+                votes: "Toppings, Appetizers",
+            },
         ];
 
 
