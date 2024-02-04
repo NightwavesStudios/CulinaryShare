@@ -367,14 +367,12 @@
     </script>
 
     <!-- Disable Linebreaks -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     <script>
-      $(".form").keydown(function(e){
-  if (e.keyCode == 13 && !e.shiftKey)
-{
-  e.preventDefault();
-  return false;
+  document.addEventListener("keydown", (e) => {
+  if (e.keyCode === 13) {
+    e.preventDefault
   }
+  return;
 });
     </script>
   </body>
