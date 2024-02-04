@@ -39,19 +39,19 @@ var recipes = [
    {
                 name: "Energy Bites",
                 link: "/recipes/energybites",
-                thumb: "energybites.png",
+                thumb: "../assets/images/energybites.png",
                 votes: "No Bake, Snacks",
             },
   {
                 name: "Bean and Cheese Quesadilla",
                 link: "/recipes/beanandcheesequesadilla",
-                thumb: "beanandcheesequesadilla.png",
+                thumb: "../assets/images/beanandcheesequesadilla.png",
                 votes: "Mexican",
             },
    {
                 name: "Roasted Tomatoes",
                 link: "/recipes/roastedtomatoes",
-                thumb: "roastedtomatoes.html",
+                thumb: "../assets/images/roastedtomatoes.png",
                 votes: "Toppings, Appetizers",
             },
         ];
