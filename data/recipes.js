@@ -51,7 +51,7 @@ var recipes = [
    {
                 name: "Roasted Tomatoes",
                 link: "/recipes/roastedtomatoes",
-                thumb: "../assets/images/roastedtomatoes.png",
+                thumb: "../assets/images/bakedtomatoes.png",
                 votes: "Toppings, Appetizers",
             },
         ];
