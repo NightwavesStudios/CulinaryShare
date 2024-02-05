@@ -583,51 +583,6 @@
         opacity: 0%;
       }
     }
-    #servings {
-      width:20%;
-      float:left;
-      border-radius:10px;
-     background-color: var(--mn-active-bg-color);
-    }
-    #cooktime {
-      width:20%;
-      float:right;
-      border-radius:10px;
-      background-color: var(--mn-active-bg-color);
-    }
-    #preptime {
-      width:20%;
-      display:block;
-      margin-left: auto;
-      margin-right: auto;
-     background-color: var(--mn-active-bg-color);
-      border-radius:10px;
-    }
-    #ingredients {
-      width:100%;
-      background-color: var(--mn-active-bg-color);
-      border-radius:10px;
-    }
-    #appliances {
-      width:100%;
-      background-color: var(--mn-active-bg-color);
-      border-radius:10px;
-    }
-    #prepinstructions {
-      width:100%;
-      background-color: var(--mn-active-bg-color);
-      border-radius:10px;
-    }
-    #cookinstructions {
-      width:100%;
-      background-color: var(--mn-active-bg-color);
-      border-radius:10px;
-    }
-#videotutorial {
-       position:sticky;
-       width:1280px;
-       height:720px;
-}
 textarea{
 resize: vertical;
 }
