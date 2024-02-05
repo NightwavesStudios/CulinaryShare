@@ -10,7 +10,7 @@ window.addEventListener("load", function() {
         body: data,
       })
       .then(() => {
-        console.log("Form Sucessfully Transfered");
+        console.log("Form Successfully Transferred");
         window.location.href = "../recipes";
           this.form.reset();
         $("body").css("overflow-y", "scroll"); 
@@ -30,7 +30,7 @@ window.addEventListener("load", function() {
       })
       .then(() => {
         window.location.href = "recipes";
-        console.log("Form Sucessfully Transfered");
+        console.log("Form Successfully Transferred");
           this.form.reset();
       })
     });
