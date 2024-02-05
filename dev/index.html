@@ -72,7 +72,8 @@ header {
 if (pin === "ee2f627bdaba7c28dff426942260d4da") {
     window.location.href = "../index";
 } else {
-   alert("Incorrect Pin; Requesting Redirect to ");
+   alert("Incorrect Pin; Requesting Redirect to Last Visited Page");
+   history.back();
 }
 
     }
