@@ -67,9 +67,12 @@ header {
   
   <!-- Password JS -->
   <script>
-    var pin = document.getElementById("pin").value;
+    var pin;
     function submitLoginForm() {
+        pin = document.getElementById("pin").value;
+        console.log("pin");
 if (pin === "ee2f627bdaba7c28dff426942260d4da") {
+    alert("Correct Pin; Redirecting to Main Page");
     window.location.href = "../index";
 } else {
    alert("Incorrect Pin; Requesting Redirect to Last Visited Page");
