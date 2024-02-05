@@ -654,8 +654,7 @@ margin: 2vw;
     color: black;
 }
 .coursesChild {
-    border: none;
-    background-color: #F0EDDD; 
-    border-radius: 20px;
     width: 100%;
+    border-radius: 20px;
+    background-color:#F0EDDD;
 }
