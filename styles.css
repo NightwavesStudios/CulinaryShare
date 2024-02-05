@@ -17,9 +17,7 @@
             --mn-link-bg-hover-color: #1C1D06;
             --mn-link-a-active-color: #E3E0D0;
             --mn-active-icon-bg: #DAD8B5;
-            /* [#E6E4C0] */
             --nv-txt-color: #1F1F1F;
-
             --footer-line-color: #000;
             --ft-link-color: #616200;
             --ft-link-color-hover: #1D1D00;
@@ -27,33 +25,7 @@
             --gradient-image-bg-one: rgba(255, 148, 157, 0.75);
             --gradient-image-bg-two: rgba(97, 163, 255, 0.75);
             --ac-link-color: rgb(8, 56, 107);
-            /*--bg-color: #1C1C16;
             
-
-            --mn-bg-color: #272E23;
-            --mn-bg-color-a: #2D2D1E;
-            --mn-txt-color: #C4C8BB;
-            --mn-icon-bg-color: #39392A;
-            --mn-active-bg-color: #3E4A36;
-            --mn-active-content-color: #D9E7A5;
-            --mn-active-bg-color-hover: #495441;
-            --mn-active-bg-color-focus: #393929;
-            --mn-link-bg-hover: #393929;
-            --mn-link-bg-hover-color: #E3E3DC;
-            --mn-link-a-active-color: rgb(0, 0, 0, 0.1);
-            --mn-active-icon-bg: #485440;
-            --nv-txt-color: #E5E2D9;
-
-            --footer-line-color: #FFF;
-
-            --ft-link-color: #CBCC58;
-            --ft-link-color-hover: #e8e971;
-
-            --gradient-image-bg-one: rgba(102, 10, 16, 0.75);
-            --gradient-image-bg-two: rgba(5, 52, 122, 0.75);
-            --ac-link-color: rgb(164, 203, 245);
-            background-color: var(--bg-color);
-            color: var(--nv-txt-color);*/
         }
 
         .lightmode {
