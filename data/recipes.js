@@ -19,8 +19,8 @@ var recipes = [
                 votes: "No-Bake, Dessert",
             },
             {
-                name: "Cinamon Oats",
-                link: "/recipes/cinamonoats",
+                name: "Cinnamon Oats",
+                link: "/recipes/cinnamonoats",
                 thumb: "../assets/images/CinnamonOats.png",
                 votes: "Breakfast, Quick",
             },
