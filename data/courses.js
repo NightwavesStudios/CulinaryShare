@@ -1,14 +1,14 @@
 window.scroll(0, 1);
 var courses = [
     {
-                name: "Dutch Oven Basics",
-                link: "courses/dutchovenbasics",
-                thumb: "../assets/images/dutchovenbasics.png",
+                name: "Complete Guide To Eggs",
+                link: "../courses/completeguidetoeggs",
+                thumb: "../assets/images/completeguidetoeggs.png",
                 skilllevel: "Beginner",
             },
             {
                 name: "Start A Garden",
-                link: "courses/startagarden",
+                link: "../courses/startagarden",
                 thumb: "../assets/images/startagarden.png",
                 skilllevel: "Beginner",
             },
