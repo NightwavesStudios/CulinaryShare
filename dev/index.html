@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Developer Page
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <meta content="noindex, nofollow" name="robots"/>
+  
+  <style>
+    	body {
+    font-family: Arial, sans-serif;
+}
+ 
+header {
+    font-weight: bold;
+}
+ 
+#login {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+#loginForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+  </style>
+ </head>
+ <body>
+  <!-- Header Section -->
+  <header class="bg-dark text-white text-center p-4">
+   Developer Page Login
+  </header>
+  <!-- Login Section -->
+  <section class="container mt-5" id="login">
+   <div class="row justify-content-center">
+    <div class="col-md-6">
+     <h2>
+      Dev Login
+     </h2>
+     <form id="loginForm">
+      <div class="form-group">
+       <label for="pin">
+        Password:
+       </label>
+       <input class="form-control" id="pin" placeholder="Enter your Password" required="" type="password"/>
+      </div>
+      <button class="btn btn-primary w-100" type="submit">
+       Login
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Bootstrap & jQuery JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+  
+  <!-- Password JS -->
+  <script>
+    var pin = document.getElementById("pin").value;
+    function submitLoginForm() {
+if (pin === "dev") {
+    window.location.href = "";
+} else {
+   alert("Incorrect Pin; Requesting Redirect to ");
+}
+
+    }
+  </script>
+ </body>
+</html>
