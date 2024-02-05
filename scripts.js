@@ -38,6 +38,7 @@
     } **/
 /** Go Back Script **/
 function goBack() {
-console.log(document.referrer);
+history.back();
+return;
 }
         
