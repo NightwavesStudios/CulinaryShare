@@ -36,5 +36,9 @@
     }else{ 
       window.location.href = "../adblock.html";
     } **/
-smartlook('record', { forms: true, numbers: false, emails: true, ips: true })
+/** Go Back Script **/
+function goBack() {
+console.log("Current Location" + window.location.href);
+console.log("Back 1 In History" + history.back);
+}
         
