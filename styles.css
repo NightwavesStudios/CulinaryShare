@@ -591,6 +591,9 @@ resize: vertical;
         border-radius: 20px;
         background-color:#F0EDDD;
 }
+.alert a {
+text-decoration: underline;
+}
 .popular-recipes-container {
     width: 100vw;
     overflow: auto;
