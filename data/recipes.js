@@ -60,6 +60,12 @@ var recipes = [
                 thumb: "../assets/images/classiccroutons.png",
                 votes: "Snack, Salad Topping",
             },
+  {
+                name: "Raspberry Lemonade Refresher",
+                link: "/recipes/raspberryrefresher",
+                thumb: "../assets/images/raspberrylemonaderefresher.png",
+                votes: "Dunkin Copycat, Drink",
+            },
         ];
 /**  {
                 name: "",
