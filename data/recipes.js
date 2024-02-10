@@ -62,7 +62,7 @@ var recipes = [
             },
   {
                 name: "Raspberry Refresher",
-                link: "/recipes/raspberryrefresher",
+                link: "/recipes/raspberrylemonaderefresher",
                 thumb: "../assets/images/raspberrylemonaderefresher.png",
                 votes: "Dunkin Copycat, Drink",
             },
