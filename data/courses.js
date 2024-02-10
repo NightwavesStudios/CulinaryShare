@@ -3,7 +3,7 @@ var courses = [
     {
                 name: "Complete Guide To Eggs",
                 link: "../courses/completeguidetoeggs",
-                thumb: "/assets/images/complteguidetoeggs.png",
+                thumb: "/assets/images/completeguidetoeggs.png",
                 skilllevel: "Beginner",
             },
             {
