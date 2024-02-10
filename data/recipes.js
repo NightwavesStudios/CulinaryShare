@@ -54,7 +54,19 @@ var recipes = [
                 thumb: "../assets/images/bakedtomatoes.png",
                 votes: "Toppings, Appetizers",
             },
+   {
+                name: "Classic Croutons",
+                link: "/recipes/classiccroutons",
+                thumb: "../assets/images/classiccroutons.png",
+                votes: "Snack, Salad Topping",
+            },
         ];
+/**  {
+                name: "",
+                link: "/recipes/",
+                thumb: "../assets/images/.png",
+                votes: "",
+            }, **/
 
 
 
