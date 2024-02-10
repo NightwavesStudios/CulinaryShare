@@ -66,6 +66,12 @@ var recipes = [
                 thumb: "../assets/images/raspberrylemonaderefresher.png",
                 votes: "Dunkin Copycat, Drink",
             },
+  {
+                name: "Fried Eggs",
+                link: "/recipes/friedeggs",
+                thumb: "../assets/images/friedeggs.png",
+                votes: "Eggs, Breakfast",
+            },
         ];
 /**  {
                 name: "",
