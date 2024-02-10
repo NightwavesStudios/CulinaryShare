@@ -61,7 +61,7 @@ var recipes = [
                 votes: "Snack, Salad Topping",
             },
   {
-                name: "Raspberry Lemonade Refresher",
+                name: "Raspberry Refresher",
                 link: "/recipes/raspberryrefresher",
                 thumb: "../assets/images/raspberrylemonaderefresher.png",
                 votes: "Dunkin Copycat, Drink",
