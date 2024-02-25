@@ -72,6 +72,12 @@ var recipes = [
                 thumb: "../assets/images/friedeggs.png",
                 votes: "Eggs, Breakfast",
             },
+  {
+                name: "Pimento Cheese Sandwich",
+                link: "/recipes/pimentocheesesandwich",
+                thumb: "../assets/images/pimentocheesesandwich.png",
+                votes: "",
+            },
         ];
 /**  {
                 name: "",
