@@ -75,7 +75,7 @@ var recipes = [
   {
                 name: "Pimento Cheese Sandwich",
                 link: "/recipes/pimentocheesesandwich",
-                thumb: "../assets/images/pimentocheesesandwich.png",
+                thumb: "../assets/images/PimentoCheeseSandwich.png",
                 votes: "",
             },
         ];
