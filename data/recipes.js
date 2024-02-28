@@ -1,11 +1,6 @@
 window.scroll(0, 50);
 var recipes = [
-  {
-                name: "Salchi Papas",
-                link: "/recipes/salchipapas",
-                thumb: "salchipapas.jpg",
-                votes: "Colombian Dish",
-            },
+  
             {
                 name: "Grilled Cheese",
                 link: "/recipes/grilledcheese",
@@ -25,16 +20,22 @@ var recipes = [
                 votes: "Breakfast, Quick",
             },
             {
-                name: "Apple Butter",
-                link: "/recipes/applebutter",
-                thumb: "../assets/images/AppleButter.png",
-                votes: "Spread",
+                name: "Fried Eggs",
+                link: "/recipes/friedeggs",
+                thumb: "../assets/images/friedeggs.png",
+                votes: "Eggs, Breakfast",
             },
             {
                 name: "Easy Crunchy Moist Brownies",
                 link: "/recipes/easycrunchymoistbrownies",
                 thumb: "../assets/images/easycrunchymoistbrownies.jpg",
                 votes: "Baking, Dessert",
+            },
+            {
+                name: "BLT Sandwich",
+                link: "/recipes/bltsandwich",
+                thumb: "../assets/images/bltsandwich.png",
+                votes: "Sandwich, Lunch",
             },
    {
                 name: "Energy Bites",
@@ -60,29 +61,29 @@ var recipes = [
                 thumb: "../assets/images/classiccroutons.png",
                 votes: "Snack, Salad Topping",
             },
+            {
+                name: "Salchi Papas",
+                link: "/recipes/salchipapas",
+                thumb: "salchipapas.jpg",
+                votes: "Colombian Dish",
+            },
   {
                 name: "Raspberry Refresher",
                 link: "/recipes/raspberrylemonaderefresher",
                 thumb: "../assets/images/raspberrylemonaderefresher.png",
                 votes: "Dunkin Copycat, Drink",
             },
-  {
-                name: "Fried Eggs",
-                link: "/recipes/friedeggs",
-                thumb: "../assets/images/friedeggs.png",
-                votes: "Eggs, Breakfast",
+            {
+                name: "Apple Butter",
+                link: "/recipes/applebutter",
+                thumb: "../assets/images/AppleButter.png",
+                votes: "Spread",
             },
   {
                 name: "Pimento Cheese Sandwich",
                 link: "/recipes/pimentocheesesandwich",
                 thumb: "../assets/images/pimentocheesesandwich.png",
                 votes: "Sandwich, Breakfast",
-            },
-  {
-                name: "BLT Sandwich",
-                link: "/recipes/bltsandwich",
-                thumb: "../assets/images/bltsandwich.png",
-                votes: "Sandwich, Lunch",
             },
         ];
 /**  {
