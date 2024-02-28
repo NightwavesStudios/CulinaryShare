@@ -79,9 +79,9 @@ var recipes = [
                 votes: "Sandwich, Breakfast",
             },
   {
-                name: "BLT",
-                link: "/recipes/blt",
-                thumb: "../assets/images/blt.png",
+                name: "BLT Sandwich",
+                link: "/recipes/bltsandwich",
+                thumb: "../assets/images/bltsandwich.png",
                 votes: "Sandwich",
             },
         ];
