@@ -82,7 +82,7 @@ var recipes = [
                 name: "BLT Sandwich",
                 link: "/recipes/bltsandwich",
                 thumb: "../assets/images/bltsandwich.png",
-                votes: "Sandwich",
+                votes: "Sandwich, Lunch",
             },
         ];
 /**  {
