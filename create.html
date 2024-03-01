@@ -172,50 +172,50 @@
           <input name="Type" value="Recipe Submission" style="visibility:hidden;">
           <br>
           Recipe Name:
-          <input type="text" minlength="3" name="Recipe Name" placeholder="Recipe Name"
+          <input onpaste="return false" type="text" minlength="3" name="Recipe Name" placeholder="Recipe Name"
           required>
           <br>
           <br>
           Author:
-          <input minlength="3" name="Author" placeholder="Author Name" required>
+          <input onpaste="return false" minlength="3" name="Author" placeholder="Author Name" required>
           <br>
           <br>
           Email (Not Shown On Article):
-          <input name="Email" type="email" placeholder="Email" required>
+          <input onpaste="return false" name="Email" type="email" placeholder="Email" required>
           <br>
           <br>
           Prep Time:
-          <input name="PrepTime" min="0" placeholder="Amount of Time Needed to Prepare Recipe"
+          <input onpaste="return false" name="PrepTime" min="0" placeholder="Amount of Time Needed to Prepare Recipe"
           style="width:90%;" required>
           <br>
           <br>
           Cook Time:
-          <input name="CookTime" min="0" placeholder="Amount of Time Needed to Cook Recipe"
+          <input onpaste="return false" name="CookTime" min="0" placeholder="Amount of Time Needed to Cook Recipe"
           style="width:90%;" required>
           <br>
           <br>
           Serving Size:
-          <input name="Servings" placeholder="How many Portions for One Average Person..."
+          <input onpaste="return false" name="Servings" placeholder="How many Portions for One Average Person..."
           style="width:90%;" required>
           <br>
           <br>
           Ingredients (With Measurements):
-          <textarea minlength="3" name="Ingredients" placeholder="List of Ingredients and Amount Needed"
+          <textarea onpaste="return false" minlength="3" name="Ingredients" placeholder="List of Ingredients and Amount Needed"
           style="width:90%;" required></textarea>
           <br>
           <br>
           Appliances Needed:
-          <textarea minlength="3" name="Appliances" placeholder="List of Needed Appliances to Make The Dish"
+          <textarea onpaste="return false" minlength="3" name="Appliances" placeholder="List of Needed Appliances to Make The Dish"
           style="width:90%;" required></textarea>
           <br>
           <br>
           Prep Instructions:
-          <textarea name="PrepInstructions" placeholder="Preparation Instructions"
+          <textarea onpaste="return false" name="PrepInstructions" placeholder="Preparation Instructions"
           style="width:90%;" required></textarea>
           <br>
           <br>
           Cook Instructions:
-          <textarea name="CookInstructions" placeholder="Cooking Instructions"
+          <textarea onpaste="return false" name="CookInstructions" placeholder="Cooking Instructions"
           style="width:90%;" required></textarea>
           <br>
           <br>
@@ -320,7 +320,7 @@
 
 <script src="../scripts.js"></script>
 
-<!-- Disable Using Enter Key -->
+<!-- Disable Enter Key -->
 <script type="text/javascript">
   window.addEventListener('keydown', function(e) {
       if (e.keyIdentifier === 'U+000A' || e.keyIdentifier === 'Enter' || e.keyCode === 13) {
