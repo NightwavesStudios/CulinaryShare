@@ -89,7 +89,7 @@ var recipes = [
                 name: "Brown Sugar",
                 link: "/recipes/brownsugar",
                 thumb: "../assets/images/brownsugar.png",
-                votes: "Dessert Topping, Quick & Easy",
+                votes: "Dessert Topping",
             },
         ];
 /**  {
