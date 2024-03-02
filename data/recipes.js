@@ -85,6 +85,12 @@ var recipes = [
                 thumb: "../assets/images/pimentocheesesandwich.png",
                 votes: "Sandwich, Breakfast",
             },
+  {
+                name: "Brown Sugar",
+                link: "/recipes/brownsugar",
+                thumb: "../assets/images/brownsugar.png",
+                votes: "Dessert Topping, Quick & Easy",
+            },
         ];
 /**  {
                 name: "",
